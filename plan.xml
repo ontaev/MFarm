@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NCReport version="2.8.7" name="Untitled" type="report">
+    <options>
+        <encoding>utf8</encoding>
+        <language>00</language>
+        <langrole>0</langrole>
+        <orientation>landscape</orientation>
+        <pagesize width="297.000" height="210.000">A4</pagesize>
+        <topmargin>0</topmargin>
+        <bottommargin>0</bottommargin>
+        <leftmargin>0</leftmargin>
+        <rightmargin>0</rightmargin>
+        <fontname>Arial</fontname>
+        <fontsize>10</fontsize>
+        <backcolor>#ffffff</backcolor>
+        <columns>0</columns>
+        <columnspace>0</columnspace>
+        <zoneSpacing>0</zoneSpacing>
+        <zoneBreak>false</zoneBreak>
+    </options>
+    <datasources>
+        <datasource id="DataSource1" type="sql" openRole="begin" source="static" connection="external" parentID="" connID="" host="localhost" database="test" user="root" password="root" port="" driver="QMYSQL">select * from bulls</datasource>
+    </datasources>
+    <variables/>
+    <pageheader id="PH" height="0.000"/>
+    <pagefooter id="PF" height="0.000"/>
+    <details>
+        <detail id="Detail1" height="203.465" datasource="DataSource1">
+            <items>
+                <line id="6099" zValue="0" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="47.625" fromY="195.262" toX="174.625" toY="195.262"/>
+                <line id="1423" zValue="1" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="227.012" fromY="46.037" toX="236.537" toY="46.037"/>
+                <line id="2421" zValue="2" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="47.625" fromY="46.037" toX="47.625" toY="195.262"/>
+                <line id="15172" zValue="3" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="236.537" fromY="46.037" toX="236.537" toY="144.463"/>
+                <line id="14310" zValue="4" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="131.762" fromY="117.475" toX="236.537" toY="117.475"/>
+                <line id="4101" zValue="9" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="174.625" fromY="144.463" toX="236.537" toY="144.463"/>
+                <line id="9514" zValue="10" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="134.938" fromY="195.262" toX="134.938" toY="187.325"/>
+                <line id="14343" zValue="11" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="134.938" fromY="176.212" toX="134.938" toY="173.037"/>
+                <line id="14139" zValue="12" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="115.887" fromY="136.525" toX="115.887" toY="195.262"/>
+                <line id="" zValue="13" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="115.887" fromY="173.037" toX="134.938" toY="173.037"/>
+                <line id="7448" zValue="15" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="134.938" fromY="117.475" toX="134.938" toY="122.237"/>
+                <label id="8816" zValue="16" posX="231.775" posY="4.762" width="53.710" height="28.840" fontName="Times New Roman" fontSize="14" alignment="36">Утверждаю
+Генеральный директор
+ООО &quot;Фирма МСП&quot;
+Мамонов С.П.
+______________</label>
+                <label id="13458" zValue="17" posX="61.912" posY="12.700" width="155.046" height="6.879" fontName="Times New Roman" fontSize="18" fontWeight="bold" alignment="36">План эвакуации магазина &quot;Даян Модный Трикотаж&quot;</label>
+                <line id="" zValue="18" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="47.625" fromY="46.037" toX="209.550" toY="46.037"/>
+                <label id="10093" zValue="19" posX="103.188" posY="82.550" width="79.110" height="6.350" fontName="Arial" fontSize="16">ТОРГОВЫЙ                        ЗАЛ</label>
+                <label id="4414" zValue="20" posX="146.050" posY="142.875" width="20.637" height="6.350" fontName="Arial" fontSize="16" alignment="1">СКЛАД</label>
+                <label id="" zValue="21" posX="57.150" posY="155.575" width="43.656" height="6.350" fontName="Arial" fontSize="16">ПРИМЕРОЧНЫЕ</label>
+                <label id="5249" zValue="23" posX="114.300" posY="176.212" width="24.871" height="17.462" fontName="Arial" fontSize="16" alignment="1" rotation="315">ТУАЛЕТ</label>
+                <line id="9490" zValue="24" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="115.887" fromY="139.700" toX="134.938" toY="139.700"/>
+                <line id="7988" zValue="25" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="174.625" fromY="144.463" toX="174.625" toY="195.262"/>
+                <line id="3775" zValue="26" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="119.062" fromY="117.475" toX="47.625" toY="117.475"/>
+                <line id="11833" zValue="27" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="115.887" fromY="117.475" toX="115.887" toY="122.237"/>
+                <line id="11686" zValue="28" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="134.938" fromY="139.700" toX="134.938" toY="136.525"/>
+                <line id="7518" zValue="30" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="47.625" fromY="142.875" toX="88.900" toY="142.875"/>
+                <line id="8177" zValue="31" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="47.625" fromY="171.450" toX="88.900" toY="171.450"/>
+                <line id="15886" zValue="32" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="47.625" fromY="61.912" toX="188.912" toY="61.912"/>
+                <label id="808" zValue="34" posX="103.188" posY="50.800" width="43.656" height="6.350" fontName="Arial" fontSize="16">ВИТРИНА</label>
+                <line id="13985" zValue="35" lineColor="#000000" lineStyle="solid" lineWidth="0.700" fromX="188.912" fromY="58.737" toX="188.912" toY="61.912"/>
+            </items>
+        </detail>
+    </details>
+</NCReport>

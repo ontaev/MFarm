@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>731</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">MFarm</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>731</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen_Database"/>
+    <addaction name="actionNew_Database"/>
+    <addaction name="separator"/>
+    <addaction name="actionPrint"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuAnimals">
+    <property name="title">
+     <string>Animals</string>
+    </property>
+    <addaction name="actionMale"/>
+    <addaction name="actionFemale"/>
+   </widget>
+   <widget class="QMenu" name="menuEvents">
+    <property name="title">
+     <string>Events</string>
+    </property>
+    <addaction name="actionAdd_Event"/>
+   </widget>
+   <widget class="QMenu" name="menuReports">
+    <property name="title">
+     <string>Reports</string>
+    </property>
+    <addaction name="actionStandard"/>
+    <addaction name="actionCreate_query"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionContent"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <addaction name="actionAbout_farm"/>
+    <addaction name="actionParameters"/>
+   </widget>
+   <widget class="QMenu" name="menuCalendar">
+    <property name="title">
+     <string>Calendar</string>
+    </property>
+    <addaction name="actionOpen_calendar"/>
+    <addaction name="actionChoose_date"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAnimals"/>
+   <addaction name="menuEvents"/>
+   <addaction name="menuCalendar"/>
+   <addaction name="menuReports"/>
+   <addaction name="menuSettings"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionMale"/>
+   <addaction name="actionFemale"/>
+   <addaction name="separator"/>
+   <addaction name="actionAdd_Event"/>
+   <addaction name="separator"/>
+   <addaction name="actionOpen_calendar"/>
+   <addaction name="actionChoose_date"/>
+   <addaction name="separator"/>
+   <addaction name="actionStandard"/>
+   <addaction name="actionCreate_query"/>
+   <addaction name="separator"/>
+   <addaction name="actionAbout_farm"/>
+   <addaction name="actionParameters"/>
+   <addaction name="separator"/>
+   <addaction name="actionContent"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionOpen_Database">
+   <property name="icon">
+    <iconset resource="../XMLRealty/res/res.qrc">
+     <normaloff>:/pics/FolderOpened_Yellow.png</normaloff>:/pics/FolderOpened_Yellow.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open Database</string>
+   </property>
+  </action>
+  <action name="actionNew_Database">
+   <property name="icon">
+    <iconset resource="../XMLRealty/res/res.qrc">
+     <normaloff>:/pics/Plus__Orange.png</normaloff>:/pics/Plus__Orange.png</iconset>
+   </property>
+   <property name="text">
+    <string>New Database</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/print-icon.png</normaloff>:/pics/print-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Print</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="../XMLRealty/res/res.qrc">
+     <normaloff>:/pics/Shutdown_Box_Red.png</normaloff>:/pics/Shutdown_Box_Red.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionMale">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/bull-icon.png</normaloff>:/pics/bull-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Male</string>
+   </property>
+  </action>
+  <action name="actionFemale">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/cow-icon.png</normaloff>:/pics/cow-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Female</string>
+   </property>
+  </action>
+  <action name="actionContent">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/Help_Circle_Blue.png</normaloff>:/pics/Help_Circle_Blue.png</iconset>
+   </property>
+   <property name="text">
+    <string>Content</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/Info_Box_Blue.png</normaloff>:/pics/Info_Box_Blue.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionAdd_Event">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/Pencil3.png</normaloff>:/pics/Pencil3.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Event</string>
+   </property>
+  </action>
+  <action name="actionStandard">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/Magnifier2.png</normaloff>:/pics/Magnifier2.png</iconset>
+   </property>
+   <property name="text">
+    <string>Standard</string>
+   </property>
+  </action>
+  <action name="actionCreate_query">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/Wizard1.png</normaloff>:/pics/Wizard1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Create query</string>
+   </property>
+  </action>
+  <action name="actionAbout_farm">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/Home.png</normaloff>:/pics/Home.png</iconset>
+   </property>
+   <property name="text">
+    <string>About farm</string>
+   </property>
+  </action>
+  <action name="actionParameters">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/Settings-icon.png</normaloff>:/pics/Settings-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Parameters</string>
+   </property>
+  </action>
+  <action name="actionOpen_calendar">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/calendar.png</normaloff>:/pics/calendar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open calendar</string>
+   </property>
+  </action>
+  <action name="actionChoose_date">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pics/jump_date.png</normaloff>:/pics/jump_date.png</iconset>
+   </property>
+   <property name="text">
+    <string>Choose date</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

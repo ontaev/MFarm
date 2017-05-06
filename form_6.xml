@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NCReport version="2.8.7" name="Untitled" type="report">
+    <options>
+        <encoding>utf8</encoding>
+        <language>00</language>
+        <langrole>0</langrole>
+        <orientation>landscape</orientation>
+        <pagesize width="594.000" height="420.000">A2</pagesize>
+        <topmargin>0</topmargin>
+        <bottommargin>0</bottommargin>
+        <leftmargin>0</leftmargin>
+        <rightmargin>0</rightmargin>
+        <fontname>Arial</fontname>
+        <fontsize>10</fontsize>
+        <backcolor>#ffffff</backcolor>
+        <columns>0</columns>
+        <columnspace>0</columnspace>
+        <zoneSpacing>0</zoneSpacing>
+        <zoneBreak>false</zoneBreak>
+    </options>
+    <datasources>
+        <datasource id="DataSource1" type="sql" openRole="begin" source="static" connection="external" parentID="" connID="" host="localhost" database="test" user="root" password="root" port="" driver="QMYSQL">select * from bulls</datasource>
+    </datasources>
+    <variables/>
+    <pageheader id="PH" height="46.037">
+        <label id="11728" zValue="-153" posX="196.850" posY="14.287" width="23.812" height="23.812" fontName="Times New Roman" fontSize="10" fontWeight="bold" rotation="270">при рождении       </label>
+        <label id="9313" zValue="-151" posX="165.100" posY="17.462" width="30.162" height="22.225" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="1" rotation="270" wordbreak="true">комплексный             
+       класс                    </label>
+        <line id="10437" zValue="0" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="7.938" fromY="1.587" toX="7.938" toY="46.037"/>
+        <line id="8932" zValue="1" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="7.938" fromY="1.587" toX="274.637" toY="1.587"/>
+        <label id="9163" zValue="2" posX="7.938" posY="17.462" width="7.938" height="8.202" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="4">№
+п/п.</label>
+        <label id="5193" zValue="3" posX="15.875" posY="1.587" width="33.337" height="8.202" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132">Индив. номер</label>
+        <label id="7238" zValue="4" posX="31.750" posY="15.875" width="17.462" height="15.875" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">ушной</label>
+        <line id="2154" zValue="5" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="15.875" fromY="1.587" toX="15.875" toY="46.037"/>
+        <line id="12292" zValue="6" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="15.875" fromY="9.525" toX="49.212" toY="9.525"/>
+        <line id="11210" zValue="7" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="31.750" fromY="9.525" toX="31.750" toY="46.037"/>
+        <line id="7795" zValue="8" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="49.212" fromY="1.587" toX="49.212" toY="46.037"/>
+        <label id="11511" zValue="9" posX="49.212" posY="15.875" width="15.875" height="12.700" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="36" wordbreak="true">Дата
+рожде-
+ния</label>
+        <label id="754" zValue="10" posX="88.900" posY="12.700" width="14.287" height="17.462" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="36" wordbreak="true">Масть, 
+особые 
+приме-
+ты</label>
+        <label id="" zValue="11" posX="68.263" posY="11.112" width="22.490" height="22.225" fontName="Times New Roman" fontSize="10" fontWeight="bold" rotation="270">Поколение        </label>
+        <line id="1012" zValue="12" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="65.087" fromY="1.587" toX="65.087" toY="46.037"/>
+        <line id="4886" zValue="13" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="74.612" fromY="1.587" toX="74.612" toY="46.037"/>
+        <line id="" zValue="14" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="103.188" fromY="1.587" toX="103.188" toY="46.037"/>
+        <label id="" zValue="15" posX="103.188" posY="23.812" width="12.700" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="36" wordbreak="true">индив. 
+номер</label>
+        <label id="" zValue="16" posX="127.000" posY="17.462" width="30.162" height="22.225" fontName="Times New Roman" fontSize="10" fontWeight="bold" rotation="270" wordbreak="true">комплексный             
+       класс                    </label>
+        <label id="3557" zValue="19" posX="103.188" posY="9.525" width="33.337" height="6.350" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132">мать</label>
+        <label id="12092" zValue="20" posX="147.637" posY="9.525" width="33.337" height="6.350" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132">отец</label>
+        <label id="6038" zValue="21" posX="127.000" posY="1.587" width="35.190" height="8.202" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132">Происхождение</label>
+        <line id="15255" zValue="22" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="274.637" fromY="1.587" toX="274.637" toY="46.037"/>
+        <label id="" zValue="23" posX="365.125" posY="1.587" width="42.862" height="8.202" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">Бонитировка</label>
+        <line id="3878" zValue="25" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="598.487" fromY="3.175" toX="598.487" toY="61.912"/>
+        <line id="1655" zValue="26" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="288.925" fromY="1.587" toX="584.200" toY="1.587"/>
+        <line id="4291" zValue="27" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="288.925" fromY="46.037" toX="288.925" toY="1.587"/>
+        <line id="792" zValue="28" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="584.200" fromY="1.587" toX="584.200" toY="46.037"/>
+        <line id="" zValue="29" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="7.938" fromY="41.275" toX="274.637" toY="41.275"/>
+        <line id="" zValue="30" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="288.925" fromY="41.275" toX="584.200" toY="41.275"/>
+        <line id="13471" zValue="31" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="288.925" fromY="9.525" toX="561.975" toY="9.525"/>
+        <label id="9220" zValue="33" posX="15.875" posY="15.875" width="15.875" height="15.875" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">техноло-
+гиче-
+ский</label>
+        <label id="1806" zValue="36" posX="138.112" posY="22.225" width="12.700" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">кличка</label>
+        <label id="13273" zValue="37" posX="215.900" posY="1.587" width="35.190" height="8.202" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132">Развитие, кг.</label>
+        <label id="6284" zValue="38" posX="220.662" posY="9.525" width="35.190" height="6.350" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132">месяцев</label>
+        <label id="12053" zValue="39" posX="204.787" posY="23.812" width="14.287" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">205 дн.</label>
+        <label id="578" zValue="40" posX="219.075" posY="23.812" width="11.112" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">8</label>
+        <label id="3584" zValue="41" posX="230.188" posY="23.812" width="11.112" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">9</label>
+        <label id="13350" zValue="42" posX="241.300" posY="23.812" width="11.112" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">12</label>
+        <label id="" zValue="43" posX="252.412" posY="23.812" width="11.112" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">15</label>
+        <line id="10697" zValue="44" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="103.188" fromY="9.525" toX="193.675" toY="9.525"/>
+        <line id="1228" zValue="45" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="193.675" fromY="1.587" toX="193.675" toY="46.037"/>
+        <line id="2319" zValue="46" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="103.188" fromY="15.875" toX="193.675" toY="15.875"/>
+        <line id="11027" zValue="47" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="138.112" fromY="9.525" toX="138.112" toY="46.037"/>
+        <line id="" zValue="48" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="115.887" fromY="15.875" toX="115.887" toY="46.037"/>
+        <line id="9508" zValue="50" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="150.812" fromY="15.875" toX="150.812" toY="46.037"/>
+        <line id="7185" zValue="51" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="163.512" fromY="15.875" toX="163.512" toY="46.037"/>
+        <line id="13854" zValue="52" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="204.787" fromY="9.525" toX="204.787" toY="46.037"/>
+        <line id="10059" zValue="53" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="193.675" fromY="9.525" toX="274.637" toY="9.525"/>
+        <line id="4929" zValue="54" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="204.787" fromY="15.875" toX="274.637" toY="15.875"/>
+        <line id="" zValue="56" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="230.188" fromY="15.875" toX="230.188" toY="46.037"/>
+        <label id="" zValue="62" posX="288.925" posY="23.812" width="12.700" height="14.287" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">воз-
+раст, 
+мес</label>
+        <label id="911" zValue="63" posX="314.325" posY="9.525" width="25.400" height="12.700" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">оценка по
+собственной
+продуктивности</label>
+        <label id="10067" zValue="65" posX="288.925" posY="11.112" width="25.400" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">при первом 
+осеменении</label>
+        <label id="" zValue="103" posX="179.387" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">14</label>
+        <label id="" zValue="104" posX="115.887" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">9</label>
+        <label id="" zValue="105" posX="163.512" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">13</label>
+        <label id="" zValue="106" posX="103.188" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">8</label>
+        <label id="" zValue="107" posX="230.188" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">18</label>
+        <label id="" zValue="108" posX="206.375" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">16</label>
+        <label id="" zValue="109" posX="52.387" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">4</label>
+        <label id="" zValue="110" posX="19.050" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">2</label>
+        <label id="" zValue="111" posX="88.900" posY="41.275" width="14.287" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">7</label>
+        <label id="" zValue="112" posX="138.112" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">11</label>
+        <label id="" zValue="113" posX="193.675" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">15</label>
+        <label id="" zValue="114" posX="150.812" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">12</label>
+        <label id="" zValue="115" posX="74.612" posY="41.275" width="14.287" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">6</label>
+        <label id="" zValue="116" posX="127.000" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">10</label>
+        <label id="" zValue="117" posX="65.087" posY="41.275" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">5</label>
+        <label id="" zValue="118" posX="34.925" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">3</label>
+        <label id="" zValue="119" posX="219.075" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">17</label>
+        <label id="" zValue="120" posX="7.938" posY="41.275" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">1</label>
+        <label id="12193" zValue="121" posX="241.300" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">19</label>
+        <label id="12734" zValue="122" posX="252.412" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">20</label>
+        <label id="1637" zValue="123" posX="263.525" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">21</label>
+        <label id="10150" zValue="124" posX="290.512" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">22</label>
+        <label id="5556" zValue="125" posX="301.625" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">23</label>
+        <label id="1993" zValue="126" posX="341.312" posY="41.275" width="14.287" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">26</label>
+        <label id="10176" zValue="127" posX="357.188" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">27</label>
+        <label id="9321" zValue="128" posX="314.325" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">24</label>
+        <label id="6962" zValue="129" posX="327.025" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">25</label>
+        <label id="12263" zValue="130" posX="398.462" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">30</label>
+        <label id="4313" zValue="131" posX="409.575" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">31</label>
+        <label id="7971" zValue="132" posX="369.887" posY="41.275" width="14.287" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">28</label>
+        <label id="14801" zValue="133" posX="384.175" posY="41.275" width="14.287" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">29</label>
+        <label id="912" zValue="134" posX="422.275" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">32</label>
+        <label id="10808" zValue="135" posX="449.262" posY="41.275" width="14.287" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">34</label>
+        <label id="1832" zValue="136" posX="465.137" posY="41.275" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">35</label>
+        <label id="4561" zValue="137" posX="434.975" posY="41.275" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">33</label>
+        <label id="4313" zValue="138" posX="476.250" posY="41.275" width="14.287" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">36</label>
+        <label id="10548" zValue="139" posX="490.537" posY="41.275" width="14.287" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">37</label>
+        <label id="15881" zValue="140" posX="504.825" posY="41.275" width="17.462" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">38</label>
+        <label id="" zValue="141" posX="522.288" posY="41.275" width="19.050" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">39</label>
+        <label id="16294" zValue="142" posX="74.612" posY="17.462" width="14.287" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="36" wordbreak="true">Линия
+отца</label>
+        <line id="1752" zValue="143" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="88.900" fromY="1.587" toX="88.900" toY="46.037"/>
+        <label id="" zValue="144" posX="119.062" posY="17.462" width="15.875" height="22.225" fontName="Times New Roman" fontSize="10" fontWeight="bold" rotation="270">поколение        </label>
+        <label id="10040" zValue="146" posX="177.800" posY="20.637" width="14.287" height="15.875" fontName="Times New Roman" fontSize="10" fontWeight="bold" rotation="270">класс по                   
+собств.                      
+продукт.                  </label>
+        <label id="12818" zValue="148" posX="150.812" posY="22.225" width="12.700" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="36" wordbreak="true">индив. 
+номер</label>
+        <line id="610" zValue="149" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="176.212" fromY="15.875" toX="176.212" toY="46.037"/>
+        <label id="14311" zValue="154" posX="263.525" posY="23.812" width="11.112" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">18</label>
+        <label id="" zValue="156" posX="301.625" posY="23.812" width="12.700" height="14.287" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">живая масса, кг</label>
+        <label id="" zValue="157" posX="314.325" posY="26.987" width="12.700" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">класс</label>
+        <label id="" zValue="158" posX="327.025" posY="26.987" width="12.700" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">ин-
+декс</label>
+        <label id="" zValue="159" posX="357.188" posY="17.462" width="12.700" height="14.287" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">живая масса, кг</label>
+        <label id="2589" zValue="160" posX="341.312" posY="20.637" width="15.875" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">возраст, мес</label>
+        <label id="" zValue="161" posX="384.175" posY="25.400" width="14.287" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">разви-
+тие</label>
+        <label id="" zValue="162" posX="369.887" posY="25.400" width="14.287" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">поро-
+да</label>
+        <label id="" zValue="163" posX="373.062" posY="9.525" width="22.225" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">выражен-
+ность типа</label>
+        <label id="" zValue="164" posX="398.462" posY="17.462" width="33.337" height="19.050" fontName="Times New Roman" fontSize="10" fontWeight="bold" rotation="270" wordbreak="true">   оценка               
+экстерьера            </label>
+        <label id="5660" zValue="165" posX="411.162" posY="15.875" width="33.337" height="20.637" fontName="Times New Roman" fontSize="10" fontWeight="bold" rotation="270" wordbreak="true">    высота              
+в крестце, см           </label>
+        <label id="" zValue="166" posX="425.450" posY="12.700" width="33.337" height="26.987" fontName="Times New Roman" fontSize="10" fontWeight="bold" rotation="270" wordbreak="true">живая масса          </label>
+        <label id="335" zValue="167" posX="436.562" posY="14.287" width="33.337" height="25.400" fontName="Times New Roman" fontSize="10" fontWeight="bold" rotation="270" wordbreak="true"> экстерьер и             
+телосложение            </label>
+        <label id="8759" zValue="168" posX="450.850" posY="12.700" width="42.862" height="26.987" fontName="Times New Roman" fontSize="10" fontWeight="bold" rotation="270" wordbreak="true">    оценка по                     
+   собственной                 
+продуктивности                 </label>
+        <label id="8880" zValue="169" posX="468.312" posY="17.462" width="26.987" height="26.987" fontName="Times New Roman" fontSize="10" fontWeight="bold" rotation="270" wordbreak="true">породность           </label>
+        <label id="3829" zValue="171" posX="476.250" posY="1.587" width="42.862" height="8.202" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">Классная оценка, балл</label>
+        <label id="7391" zValue="172" posX="490.537" posY="30.162" width="14.287" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">отца</label>
+        <label id="" zValue="173" posX="482.600" posY="9.525" width="22.225" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">генотип</label>
+        <label id="12908" zValue="174" posX="476.250" posY="30.162" width="14.287" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">ма-
+тери</label>
+        <label id="" zValue="175" posX="481.012" posY="19.050" width="22.225" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">класс</label>
+        <label id="13172" zValue="176" posX="522.288" posY="20.637" width="19.050" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">Общий
+балл</label>
+        <label id="9177" zValue="177" posX="561.975" posY="15.875" width="22.225" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">Назначение</label>
+        <label id="15243" zValue="178" posX="541.337" posY="20.637" width="20.637" height="9.525" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">Класс</label>
+        <label id="6467" zValue="179" posX="504.825" posY="20.637" width="17.462" height="17.462" fontName="Times New Roman" fontSize="10" fontWeight="bold" alignment="132" wordbreak="true">класс отца 
+по собств. 
+продукт.</label>
+        <line id="" zValue="180" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="339.725" fromY="1.587" toX="339.725" toY="46.037"/>
+        <line id="11429" zValue="181" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="422.275" fromY="1.587" toX="422.275" toY="46.037"/>
+        <line id="" zValue="182" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="434.975" fromY="9.525" toX="434.975" toY="46.037"/>
+        <line id="4217" zValue="183" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="447.675" fromY="9.525" toX="447.675" toY="46.037"/>
+        <line id="6077" zValue="184" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="465.137" fromY="9.525" toX="465.137" toY="46.037"/>
+        <line id="3831" zValue="185" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="476.250" fromY="19.050" toX="476.250" toY="46.037"/>
+        <line id="8683" zValue="186" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="465.137" fromY="19.050" toX="522.288" toY="19.050"/>
+        <line id="8213" zValue="187" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="522.288" fromY="9.525" toX="522.288" toY="46.037"/>
+        <line id="7608" zValue="188" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="561.975" fromY="1.587" toX="561.975" toY="46.037"/>
+        <line id="9440" zValue="189" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="541.337" fromY="9.525" toX="541.337" toY="46.037"/>
+        <line id="5601" zValue="190" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="504.825" fromY="19.050" toX="504.825" toY="46.037"/>
+        <line id="7008" zValue="191" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="476.250" fromY="28.575" toX="504.825" toY="28.575"/>
+        <line id="2670" zValue="192" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="490.537" fromY="28.575" toX="490.537" toY="46.037"/>
+        <line id="" zValue="193" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="357.188" fromY="9.525" toX="357.188" toY="46.037"/>
+        <line id="4084" zValue="194" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="369.887" fromY="9.525" toX="369.887" toY="46.037"/>
+        <line id="10075" zValue="195" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="384.175" fromY="19.050" toX="384.175" toY="46.037"/>
+        <line id="2402" zValue="196" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="369.887" fromY="19.050" toX="398.462" toY="19.050"/>
+        <line id="15498" zValue="197" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="398.462" fromY="9.525" toX="398.462" toY="46.037"/>
+        <line id="8586" zValue="198" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="409.575" fromY="9.525" toX="409.575" toY="46.037"/>
+        <line id="7463" zValue="199" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="339.725" fromY="22.225" toX="288.925" toY="22.225"/>
+        <line id="16220" zValue="200" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="314.325" fromY="9.525" toX="314.325" toY="46.037"/>
+        <line id="503" zValue="201" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="301.625" fromY="22.225" toX="301.625" toY="46.037"/>
+        <line id="4837" zValue="202" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="327.025" fromY="22.225" toX="327.025" toY="46.037"/>
+        <line id="6279" zValue="203" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="288.925" fromY="46.037" toX="584.200" toY="46.037"/>
+        <label id="" zValue="204" posX="541.337" posY="41.275" width="20.637" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">40</label>
+        <label id="1856" zValue="205" posX="561.975" posY="41.275" width="22.225" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">41</label>
+        <line id="12164" zValue="206" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="7.938" fromY="46.037" toX="274.637" toY="46.037"/>
+        <line id="7619" zValue="207" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="127.000" fromY="15.875" toX="127.000" toY="46.037"/>
+        <line id="15434" zValue="208" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="219.075" fromY="15.875" toX="219.075" toY="46.037"/>
+        <line id="9232" zValue="209" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="241.300" fromY="15.875" toX="241.300" toY="46.037"/>
+        <line id="750" zValue="210" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="252.412" fromY="15.875" toX="252.412" toY="46.037"/>
+        <line id="8821" zValue="211" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="263.525" fromY="15.875" toX="263.525" toY="46.037"/>
+    </pageheader>
+    <pagefooter id="PF" height="0.000"/>
+    <details>
+        <detail id="Detail1" height="5.292" datasource="DataSource1">
+            <items>
+                <line id="2316" zValue="0" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="7.938" fromY="0.000" toX="7.938" toY="4.762"/>
+                <line id="11367" zValue="1" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="7.938" fromY="4.762" toX="274.637" toY="4.762"/>
+                <line id="1308" zValue="2" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="15.875" fromY="0.000" toX="15.875" toY="4.762"/>
+                <line id="5403" zValue="3" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="31.750" fromY="0.000" toX="31.750" toY="4.762"/>
+                <line id="12148" zValue="4" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="49.212" fromY="0.000" toX="49.212" toY="4.762"/>
+                <line id="14172" zValue="5" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="65.087" fromY="0.000" toX="65.087" toY="4.762"/>
+                <line id="14590" zValue="6" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="74.612" fromY="0.000" toX="74.612" toY="4.762"/>
+                <line id="3447" zValue="7" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="88.900" fromY="0.000" toX="88.900" toY="4.762"/>
+                <line id="5021" zValue="8" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="115.887" fromY="0.000" toX="115.887" toY="4.762"/>
+                <line id="1899" zValue="9" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="127.000" fromY="0.000" toX="127.000" toY="4.762"/>
+                <line id="9838" zValue="10" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="138.112" fromY="0.000" toX="138.112" toY="4.762"/>
+                <line id="12947" zValue="11" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="103.188" fromY="0.000" toX="103.188" toY="4.762"/>
+                <line id="2376" zValue="12" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="150.812" fromY="0.000" toX="150.812" toY="4.762"/>
+                <line id="12199" zValue="13" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="193.675" fromY="0.000" toX="193.675" toY="4.762"/>
+                <line id="" zValue="14" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="204.787" fromY="0.000" toX="204.787" toY="4.762"/>
+                <line id="" zValue="15" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="219.075" fromY="0.000" toX="219.075" toY="4.762"/>
+                <line id="1598" zValue="16" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="163.512" fromY="0.000" toX="163.512" toY="4.762"/>
+                <line id="5634" zValue="17" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="176.212" fromY="0.000" toX="176.212" toY="4.762"/>
+                <line id="" zValue="18" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="263.525" fromY="0.000" toX="263.525" toY="4.762"/>
+                <line id="6541" zValue="19" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="584.200" fromY="0.000" toX="584.200" toY="4.762"/>
+                <line id="14413" zValue="20" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="490.537" fromY="0.000" toX="490.537" toY="4.762"/>
+                <line id="257" zValue="21" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="314.325" fromY="0.000" toX="314.325" toY="4.762"/>
+                <line id="16336" zValue="22" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="541.337" fromY="0.000" toX="541.337" toY="4.762"/>
+                <line id="1953" zValue="23" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="288.925" fromY="0.000" toX="288.925" toY="4.762"/>
+                <line id="7636" zValue="24" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="422.275" fromY="0.000" toX="422.275" toY="4.762"/>
+                <line id="14330" zValue="25" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="447.675" fromY="0.000" toX="447.675" toY="4.762"/>
+                <line id="3471" zValue="26" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="339.725" fromY="0.000" toX="339.725" toY="4.762"/>
+                <line id="13142" zValue="28" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="327.025" fromY="0.000" toX="327.025" toY="4.762"/>
+                <line id="2505" zValue="29" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="561.975" fromY="0.000" toX="561.975" toY="4.762"/>
+                <line id="13337" zValue="30" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="434.975" fromY="0.000" toX="434.975" toY="4.762"/>
+                <line id="11462" zValue="31" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="357.188" fromY="0.000" toX="357.188" toY="4.762"/>
+                <line id="16337" zValue="32" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="301.625" fromY="0.000" toX="301.625" toY="4.762"/>
+                <line id="2623" zValue="33" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="288.925" fromY="4.762" toX="584.200" toY="4.762"/>
+                <line id="13193" zValue="34" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="252.412" fromY="0.000" toX="252.412" toY="4.762"/>
+                <line id="14474" zValue="35" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="384.175" fromY="0.000" toX="384.175" toY="4.762"/>
+                <line id="2625" zValue="36" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="398.462" fromY="0.000" toX="398.462" toY="4.762"/>
+                <line id="9243" zValue="37" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="409.575" fromY="0.000" toX="409.575" toY="4.762"/>
+                <line id="5629" zValue="38" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="369.887" fromY="0.000" toX="369.887" toY="4.762"/>
+                <line id="15544" zValue="39" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="465.137" fromY="0.000" toX="465.137" toY="4.762"/>
+                <line id="11227" zValue="40" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="476.250" fromY="0.000" toX="476.250" toY="4.762"/>
+                <line id="12136" zValue="41" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="504.825" fromY="0.000" toX="504.825" toY="4.762"/>
+                <line id="6902" zValue="42" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="522.288" fromY="0.000" toX="522.288" toY="4.762"/>
+                <line id="1539" zValue="44" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="241.300" fromY="0.000" toX="241.300" toY="4.762"/>
+                <line id="303" zValue="45" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="230.188" fromY="0.000" toX="230.188" toY="4.762"/>
+                <line id="4714" zValue="46" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="274.637" fromY="0.000" toX="274.637" toY="4.762"/>
+            </items>
+        </detail>
+    </details>
+</NCReport>

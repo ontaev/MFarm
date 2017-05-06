@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NCReport version="2.8.7" name="Untitled" type="report">
+    <options>
+        <encoding>utf8</encoding>
+        <language>00</language>
+        <langrole>0</langrole>
+        <orientation>landscape</orientation>
+        <pagesize width="297.000" height="210.000">A4</pagesize>
+        <topmargin>0</topmargin>
+        <bottommargin>0</bottommargin>
+        <leftmargin>0</leftmargin>
+        <rightmargin>0</rightmargin>
+        <fontname>Arial</fontname>
+        <fontsize>10</fontsize>
+        <backcolor>#ffffff</backcolor>
+        <columns>0</columns>
+        <columnspace>0</columnspace>
+        <zoneSpacing>0</zoneSpacing>
+        <zoneBreak>false</zoneBreak>
+    </options>
+    <datasources>
+        <datasource id="DataSource1" type="sql" openRole="begin" source="static" connection="external" parentID="" connID="" host="localhost" database="test" user="root" password="root" port="" driver="QMYSQL">select * from bulls</datasource>
+    </datasources>
+    <variables/>
+    <pageheader id="PH" height="0.000"/>
+    <pagefooter id="PF" height="0.000"/>
+    <details>
+        <detail id="Detail1" height="150.019" datasource="DataSource1">
+            <items>
+                <line id="53" zValue="1" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="166.688" fromY="57.150" toX="295.275" toY="57.150"/>
+                <line id="11279" zValue="2" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="3.175" fromY="96.837" toX="295.275" toY="96.837"/>
+                <line id="11780" zValue="3" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="295.275" fromY="33.337" toX="295.275" toY="96.837"/>
+                <line id="13337" zValue="5" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="3.175" fromY="33.337" toX="3.175" toY="96.837"/>
+                <label id="9152" zValue="6" posX="77.787" posY="17.462" width="134.938" height="5.821" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="36">12. КЛАССНОСТЬ РЕАЛИЗОВАННОГО МОЛОДНЯКА</label>
+                <line id="14310" zValue="8" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="50.800" fromY="33.337" toX="50.800" toY="96.837"/>
+                <line id="11064" zValue="11" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="90.487" fromY="33.337" toX="90.487" toY="96.837"/>
+                <line id="13509" zValue="15" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="166.688" fromY="33.337" toX="166.688" toY="96.837"/>
+                <line id="9573" zValue="18" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="231.775" fromY="57.150" toX="231.775" toY="96.837"/>
+                <line id="" zValue="21" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="3.175" fromY="84.137" toX="295.275" toY="84.137"/>
+                <label id="" zValue="41" posX="3.175" posY="87.312" width="47.625" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">Телки</label>
+                <line id="6038" zValue="50" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="3.175" fromY="33.337" toX="295.275" toY="33.337"/>
+                <line id="9514" zValue="53" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="3.175" fromY="71.438" toX="295.275" toY="71.438"/>
+                <label id="" zValue="54" posX="3.175" posY="74.612" width="47.625" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">Бычки</label>
+                <label id="" zValue="55" posX="52.387" posY="49.212" width="33.337" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">№ строки</label>
+                <label id="" zValue="56" posX="106.362" posY="49.212" width="47.890" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">Продано всего голов</label>
+                <label id="" zValue="57" posX="211.137" posY="41.275" width="47.890" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">в том числе</label>
+                <label id="" zValue="58" posX="173.037" posY="61.912" width="52.387" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">элита-рекорд и элита</label>
+                <label id="6414" zValue="59" posX="244.475" posY="61.912" width="42.862" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">I класс</label>
+                <label id="" zValue="60" posX="122.237" posY="123.825" width="143.404" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold">Руководитель хозяйства  _________________________ Ф.И.О.</label>
+                <label id="5844" zValue="62" posX="122.237" posY="134.938" width="142.081" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold">Главный зоотехник  _____________________________ Ф.И.О.</label>
+                <label id="16225" zValue="63" posX="122.237" posY="146.050" width="142.081" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold">Гл. зоотехник-селекционер _______________________ Ф.И.О.</label>
+                <label id="" zValue="64" posX="46.037" posY="128.588" width="15.875" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">М.П.</label>
+                <label id="3195" zValue="65" posX="22.225" posY="146.050" width="65.881" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">&quot;____&quot; ____________ 20     г.</label>
+            </items>
+        </detail>
+    </details>
+</NCReport>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NCReport version="2.8.7" name="Untitled" type="report">
+    <options>
+        <encoding>utf8</encoding>
+        <language>00</language>
+        <langrole>0</langrole>
+        <orientation>landscape</orientation>
+        <pagesize width="297.000" height="210.000">A4</pagesize>
+        <topmargin>0</topmargin>
+        <bottommargin>0</bottommargin>
+        <leftmargin>0</leftmargin>
+        <rightmargin>0</rightmargin>
+        <fontname>Arial</fontname>
+        <fontsize>10</fontsize>
+        <backcolor>#ffffff</backcolor>
+        <columns>0</columns>
+        <columnspace>0</columnspace>
+        <zoneSpacing>0</zoneSpacing>
+        <zoneBreak>false</zoneBreak>
+    </options>
+    <datasources>
+        <datasource id="third" type="sql" openRole="begin" source="static" connection="external" parentID="first" connID="qt_sql_default_connection" host="localhost" database="test" user="root" password="root" port="" driver="QMYSQL">SELECT * FROM relations WHERE id_father =$D{first.idBulls} LIMIT 1,1;</datasource>
+        <datasource id="second" type="sql" openRole="begin" source="static" connection="external" parentID="first" connID="qt_sql_default_connection" host="localhost" database="test" user="root" password="root" port="" driver="QMYSQL">SELECT * FROM relations WHERE id_father =$D{first.idBulls} LIMIT 0,1</datasource>
+        <datasource id="first" type="sql" openRole="begin" source="static" connection="external" parentID="" connID="qt_sql_default_connection" host="localhost" database="test" user="root" password="root" port="" driver="QMYSQL">SELECT * FROM bulls WHERE idBulls in (5,6);</datasource>
+        <datasource id="fourth" type="sql" openRole="begin" source="static" connection="external" parentID="first" connID="qt_sql_default_connection" host="localhost" database="test" user="root" password="root" port="" driver="QMYSQL">SELECT * FROM relations WHERE id_father =$D{first.idBulls} LIMIT 2,1;</datasource>
+    </datasources>
+    <variables/>
+    <pageheader id="PH" height="57.150">
+        <line id="14818" zValue="0" lineColor="#000000" lineStyle="solid" lineWidth="0.400" fromX="1.587" fromY="7.938" toX="223.837" toY="7.938"/>
+        <label id="10508" zValue="1" posX="169.862" posY="92.075" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">Номер тома ГКПЖ ______________</label>
+        <label id="10080" zValue="2" posX="60.325" posY="61.912" width="52.387" height="4.762" fontName="Arial" fontSize="9" alignment="1">Комплексный класс ___________</label>
+        <label id="5340" zValue="3" posX="58.737" posY="115.887" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">в возрасте ______ лет ______ мес</label>
+        <label id="12076" zValue="4" posX="87.312" posY="128.588" width="25.665" height="4.762" fontName="Arial" fontSize="9" alignment="1">ООМ__________</label>
+        <label id="9058" zValue="5" posX="114.300" posY="122.237" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">______Комплексный класс_______</label>
+        <label id="15109" zValue="6" posX="146.050" posY="42.862" width="9.790" height="11.112" fontName="Arial" fontSize="8" alignment="36">Лакта-
+ция по
+счету</label>
+        <label id="7740" zValue="7" posX="31.750" posY="128.588" width="25.665" height="4.762" fontName="Arial" fontSize="9" alignment="1">ОММ__________</label>
+        <line id="8546" zValue="8" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="155.575" fromY="39.688" toX="155.575" toY="77.787"/>
+        <label id="4090" zValue="9" posX="53.975" posY="30.162" width="58.737" height="4.762" fontName="Arial" fontSize="9" alignment="1">Породность _____________________</label>
+        <label id="8389" zValue="10" posX="230.188" posY="76.200" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Живой вес ______________________ кг</label>
+        <label id="2713" zValue="11" posX="155.575" posY="41.275" width="31.750" height="3.704" fontName="Arial" fontSize="8" alignment="4">За 305 дней</label>
+        <line id="6951" zValue="12" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="134.938" fromY="39.688" toX="134.938" toY="77.787"/>
+        <label id="11072" zValue="13" posX="130.175" posY="12.700" width="19.050" height="4.762" fontName="Arial" fontSize="7" alignment="129">(кличка, инд.№)</label>
+        <label id="7016" zValue="14" posX="230.188" posY="128.588" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Марка и № ГКПЖ _____________________</label>
+        <label id="707" zValue="15" posX="114.300" posY="46.037" width="7.938" height="3.704" fontName="Arial" fontSize="8" alignment="4">Год</label>
+        <label id="6571" zValue="16" posX="244.475" posY="123.825" width="36.512" height="4.762" fontName="Arial" fontSize="7" alignment="129">(кличка, инд.№, идент.№)</label>
+        <line id="4282" zValue="17" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="212.725" fromY="46.037" toX="212.725" toY="77.787"/>
+        <label id="4141" zValue="18" posX="134.938" posY="42.862" width="11.112" height="11.112" fontName="Arial" fontSize="8" alignment="4">Коли-
+чество
+голов</label>
+        <label id="7204" zValue="19" posX="58.737" posY="122.237" width="54.240" height="4.762" fontName="Arial" fontSize="9" alignment="1">Комплексный класс_____________</label>
+        <label id="12481" zValue="20" posX="58.737" posY="92.075" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">Номер тома ГКПЖ ______________</label>
+        <label id="784" zValue="21" posX="114.300" posY="100.012" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">_____________________________</label>
+        <line id="11931" zValue="22" lineColor="#000000" lineStyle="solid" lineWidth="0.400" fromX="1.587" fromY="7.938" toX="1.587" toY="204.787"/>
+        <label id="3012" zValue="23" posX="187.325" posY="41.275" width="34.925" height="3.704" fontName="Arial" fontSize="8" alignment="4">Разница(+ -)</label>
+        <line id="16225" zValue="24" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="30.162" fromY="127.000" toX="30.162" toY="169.862"/>
+        <label id="1009" zValue="25" posX="168.275" posY="82.550" width="55.562" height="3.175" fontName="Arial" fontSize="7" alignment="4">(кличка, инд.№, идент.№)</label>
+        <label id="5628" zValue="26" posX="136.525" posY="34.925" width="66.675" height="4.762" fontName="Arial" fontSize="10" fontWeight="bold" alignment="1">ОЦЕНКА ПО КАЧЕСТВУ ПОТОМСТВА</label>
+        <label id="1752" zValue="27" posX="58.737" posY="98.425" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">Порода, породность ____________</label>
+        <line id="11455" zValue="28" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="187.325" fromY="50.800" toX="165.100" toY="50.800"/>
+        <label id="2378" zValue="29" posX="122.237" posY="44.450" width="12.700" height="7.408" fontName="Arial" fontSize="8" alignment="4">Метод
+оценки</label>
+        <label id="8659" zValue="30" posX="174.625" posY="131.762" width="20.637" height="3.175" fontName="Arial" fontSize="7" alignment="36">(кличка)</label>
+        <label id="742" zValue="31" posX="3.175" posY="49.212" width="109.537" height="4.762" fontName="Arial" fontSize="9" alignment="1">___________________________________________________________</label>
+        <line id="21" zValue="32" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="222.250" fromY="57.150" toX="114.300" toY="57.150"/>
+        <label id="1538" zValue="33" posX="3.175" posY="122.237" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">______Комплексный класс_______</label>
+        <label id="8128" zValue="34" posX="114.300" posY="115.887" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">_____________________________</label>
+        <label id="9248" zValue="35" posX="119.062" posY="131.762" width="20.637" height="3.175" fontName="Arial" fontSize="7" alignment="36">(кличка)</label>
+        <line id="9634" zValue="36" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="165.100" fromY="46.037" toX="165.100" toY="77.787"/>
+        <label id="10984" zValue="37" posX="3.175" posY="100.012" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">_____________________________</label>
+        <label id="7333" zValue="38" posX="153.987" posY="23.812" width="69.850" height="4.762" fontName="Arial" fontSize="9" alignment="1">Живой вес____кг  в возрасте____лет____мес</label>
+        <label id="9714" zValue="39" posX="3.175" posY="128.588" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">МММ__________</label>
+        <label id="1266" zValue="40" posX="114.300" posY="9.525" width="52.387" height="4.762" fontName="Arial" fontSize="9" alignment="1">О ___________________________</label>
+        <label id="13290" zValue="41" posX="230.188" posY="41.275" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Линия, семейство ______________________</label>
+        <label id="3335" zValue="42" posX="3.175" posY="107.950" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">_____________________________</label>
+        <line id="12759" zValue="43" lineColor="#000000" lineStyle="solid" lineWidth="0.400" fromX="223.837" fromY="7.938" toX="223.837" toY="204.787"/>
+        <label id="3169" zValue="44" posX="3.175" posY="9.525" width="109.537" height="4.762" fontName="Arial" fontSize="9" alignment="1">М _________________________________________________________</label>
+        <label id="5511" zValue="45" posX="63.500" posY="131.762" width="20.637" height="3.175" fontName="Arial" fontSize="7" alignment="36">(кличка)</label>
+        <label id="5303" zValue="46" posX="166.688" posY="17.462" width="57.150" height="4.762" fontName="Arial" fontSize="9" alignment="1">Порода __________________________</label>
+        <label id="6256" zValue="47" posX="57.150" posY="82.550" width="55.562" height="3.175" fontName="Arial" fontSize="7" alignment="4">(кличка, инд.№, идент.№)</label>
+        <line id="5595" zValue="48" lineColor="#000000" lineStyle="dot" lineWidth="0.400" fromX="227.012" fromY="0.000" toX="227.012" toY="206.375"/>
+        <label id="7815" zValue="49" posX="166.688" posY="9.525" width="57.150" height="4.762" fontName="Arial" fontSize="9" alignment="1">Марка и № ГКПЖ __________________</label>
+        <label id="12721" zValue="50" posX="169.862" posY="115.887" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">в возрасте ______ лет ______ мес</label>
+        <line id="8407" zValue="51" lineColor="#000000" lineStyle="solid" lineWidth="0.400" fromX="114.300" fromY="39.688" toX="222.250" toY="39.688"/>
+        <label id="2277" zValue="52" posX="1.587" posY="82.550" width="55.562" height="3.175" fontName="Arial" fontSize="7" alignment="4">(кличка, инд.№, идент.№)</label>
+        <label id="8681" zValue="53" posX="58.737" posY="104.775" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">_____________________________</label>
+        <label id="3652" zValue="54" posX="3.175" posY="79.375" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">ММ __________________________</label>
+        <label id="8753" zValue="55" posX="230.188" posY="114.300" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">№ тома ГКПЖ ________ Класс _________</label>
+        <line id="7649" zValue="56" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="198.438" fromY="46.037" toX="198.438" toY="77.787"/>
+        <label id="15645" zValue="57" posX="36.512" posY="131.762" width="20.637" height="3.175" fontName="Arial" fontSize="7" alignment="36">(кличка)</label>
+        <label id="15987" zValue="58" posX="263.525" posY="44.450" width="21.431" height="4.762" fontName="Arial" fontSize="7" alignment="129">(кличка, инд.№,</label>
+        <label id="7042" zValue="59" posX="169.862" posY="104.775" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">_____________________________</label>
+        <label id="9869" zValue="60" posX="203.200" posY="131.762" width="20.637" height="3.175" fontName="Arial" fontSize="7" alignment="36">(кличка)</label>
+        <label id="3699" zValue="61" posX="230.188" posY="22.225" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Кличка ______________________________</label>
+        <label id="11420" zValue="62" posX="58.737" posY="79.375" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">ОМ __________________________</label>
+        <line id="15814" zValue="63" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="155.575" fromY="46.037" toX="222.250" toY="46.037"/>
+        <label id="16334" zValue="64" posX="230.188" posY="107.950" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Марка и № ГКПЖ _____________________</label>
+        <label id="12244" zValue="65" posX="230.188" posY="28.575" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Индивидуальный № __________________</label>
+        <label id="14679" zValue="66" posX="114.300" posY="93.662" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">Порода, породность ____________</label>
+        <label id="4268" zValue="67" posX="58.737" posY="85.725" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">Марка и № ГКПЖ _______________</label>
+        <label id="2480" zValue="68" posX="3.175" posY="55.562" width="109.537" height="4.762" fontName="Arial" fontSize="9" alignment="1">Живой вес в возрасте__________лет__________мес___________кг.</label>
+        <label id="4769" zValue="69" posX="169.862" posY="122.237" width="54.240" height="4.762" fontName="Arial" fontSize="9" alignment="1">Комплексный класс_____________</label>
+        <label id="14086" zValue="70" posX="34.925" posY="12.700" width="36.512" height="4.762" fontName="Arial" fontSize="7" alignment="129">(кличка, инд.№, идент.№)</label>
+        <label id="15005" zValue="71" posX="230.188" posY="46.037" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">_____________________________________</label>
+        <line id="4663" zValue="72" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="85.725" fromY="127.000" toX="85.725" toY="169.862"/>
+        <label id="1594" zValue="73" posX="3.175" posY="85.725" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">_____________________________</label>
+        <label id="5103" zValue="74" posX="171.450" posY="30.162" width="52.387" height="4.762" fontName="Arial" fontSize="9" alignment="1">Комплексный класс ___________</label>
+        <label id="7942" zValue="75" posX="114.300" posY="85.725" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">_____________________________</label>
+        <label id="3276" zValue="76" posX="115.887" posY="1.587" width="105.569" height="4.762" fontName="Arial" fontSize="10" fontWeight="bold" alignment="1">ЛИНИЯ ________________________________________________</label>
+        <line id="4939" zValue="77" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="168.275" fromY="77.787" toX="168.275" toY="169.862"/>
+        <label id="6540" zValue="78" posX="198.438" posY="46.037" width="14.552" height="11.112" fontName="Arial" fontSize="8" alignment="36">по молоч-
+ному жиру
+(%)</label>
+        <label id="7679" zValue="79" posX="112.712" posY="88.900" width="55.562" height="3.175" fontName="Arial" fontSize="7" alignment="4">(марка и № ГКПЖ, № тома ГКПЖ) </label>
+        <label id="7606" zValue="80" posX="187.325" posY="47.625" width="11.112" height="7.408" fontName="Arial" fontSize="8" alignment="36">по мо-
+локу (кг)</label>
+        <label id="16204" zValue="81" posX="169.862" posY="98.425" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">Порода, породность ____________</label>
+        <label id="8326" zValue="82" posX="114.300" posY="23.812" width="39.688" height="4.762" fontName="Arial" fontSize="9" alignment="1">Породность ___________</label>
+        <line id="12887" zValue="83" lineColor="#000000" lineStyle="solid" lineWidth="0.400" fromX="223.837" fromY="127.000" toX="1.587" toY="127.000"/>
+        <label id="1561" zValue="84" posX="212.725" posY="47.625" width="9.525" height="7.408" fontName="Arial" fontSize="8" alignment="36">по бел-
+ку (%)</label>
+        <label id="12837" zValue="85" posX="230.188" posY="69.850" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">____________________________________</label>
+        <label id="12086" zValue="86" posX="3.175" posY="42.862" width="109.537" height="4.762" fontName="Arial" fontSize="9" alignment="1">___________________________________________________________</label>
+        <label id="3799" zValue="87" posX="169.862" posY="79.375" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">ОО __________________________</label>
+        <line id="7205" zValue="88" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="122.237" fromY="39.688" toX="122.237" toY="77.787"/>
+        <label id="7571" zValue="89" posX="7.938" posY="131.762" width="20.637" height="3.175" fontName="Arial" fontSize="7" alignment="36">(кличка)</label>
+        <line id="4978" zValue="90" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="176.212" fromY="50.800" toX="176.212" toY="77.787"/>
+        <label id="8395" zValue="91" posX="3.175" posY="17.462" width="109.537" height="4.762" fontName="Arial" fontSize="9" alignment="1">Марка и № ГКПЖ ____________________________________________</label>
+        <label id="5006" zValue="92" posX="239.712" posY="1.587" width="42.862" height="11.906" fontName="Arial" fontSize="9" fontWeight="bold" alignment="36">КОРЕШОК 
+племенного свидетельства
+№ ___________</label>
+        <label id="13262" zValue="93" posX="3.175" posY="115.887" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">_____________________________</label>
+        <label id="3751" zValue="94" posX="142.875" posY="128.588" width="25.665" height="4.762" fontName="Arial" fontSize="9" alignment="1">ОМО__________</label>
+        <label id="7103" zValue="95" posX="58.737" posY="128.588" width="25.665" height="4.762" fontName="Arial" fontSize="9" alignment="1">МОМ__________</label>
+        <label id="10812" zValue="96" posX="244.475" posY="103.188" width="30.162" height="4.762" fontName="Arial" fontSize="7" alignment="129">(кличка, инд.№, идент.№)</label>
+        <label id="12649" zValue="97" posX="114.300" posY="30.162" width="57.150" height="4.762" fontName="Arial" fontSize="9" alignment="1">Балл за экстерьер _______________</label>
+        <label id="2088" zValue="98" posX="230.188" posY="80.962" width="57.415" height="4.762" fontName="Arial" fontSize="8" alignment="1">в возрасте _______ лет _______ месяцев</label>
+        <label id="12935" zValue="99" posX="176.212" posY="50.800" width="11.112" height="6.350" fontName="Arial" fontSize="8" alignment="132">белка %</label>
+        <label id="3395" zValue="100" posX="230.188" posY="100.012" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Мать _______________________________</label>
+        <label id="15993" zValue="101" posX="1.587" posY="88.900" width="55.562" height="3.175" fontName="Arial" fontSize="7" alignment="4">(марка и № ГКПЖ, № тома ГКПЖ) </label>
+        <label id="14790" zValue="102" posX="3.175" posY="36.512" width="109.537" height="4.762" fontName="Arial" fontSize="9" alignment="1">___________________________________________________________</label>
+        <label id="8578" zValue="103" posX="230.188" posY="15.875" width="56.885" height="4.762" fontName="Arial" fontSize="8" alignment="1">Пол ________________________________</label>
+        <line id="2581" zValue="104" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="141.287" fromY="127.000" toX="141.287" toY="169.862"/>
+        <label id="11001" zValue="105" posX="114.300" posY="128.588" width="25.665" height="4.762" fontName="Arial" fontSize="9" alignment="1">ММО__________</label>
+        <line id="2721" zValue="106" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="57.150" fromY="77.787" toX="57.150" toY="169.862"/>
+        <label id="11807" zValue="107" posX="114.300" posY="17.462" width="52.387" height="4.762" fontName="Arial" fontSize="9" alignment="1">Номер тома ГКПЖ ____________</label>
+        <label id="8183" zValue="108" posX="169.862" posY="85.725" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">Марка и № ГКПЖ _______________</label>
+        <label id="2669" zValue="109" posX="147.637" posY="131.762" width="20.637" height="3.175" fontName="Arial" fontSize="7" alignment="36">(кличка)</label>
+        <label id="16287" zValue="110" posX="3.175" posY="23.812" width="109.537" height="4.762" fontName="Arial" fontSize="9" alignment="1">Номер тома ГКПЖ ____________________________________________</label>
+        <label id="1457" zValue="111" posX="169.862" posY="128.588" width="25.665" height="4.762" fontName="Arial" fontSize="9" alignment="1">МОО__________</label>
+        <label id="12998" zValue="112" posX="230.188" posY="93.662" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Класс ______________________________</label>
+        <label id="3545" zValue="113" posX="112.712" posY="82.550" width="55.562" height="3.175" fontName="Arial" fontSize="7" alignment="4">(кличка, инд.№, идент.№)</label>
+        <field id="13597" zValue="114" posX="22.225" posY="79.375" width="14.287" height="4.762" fontName="Arial" fontSize="9" alignment="1" type="txt" ftype="ds" arg="">Number</field>
+        <label id="14218" zValue="115" posX="230.188" posY="65.087" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Дата и место рождения ________________</label>
+        <label id="8838" zValue="116" posX="114.300" posY="107.950" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">_____________________________</label>
+        <line id="14844" zValue="117" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="196.850" fromY="127.000" toX="196.850" toY="169.862"/>
+        <label id="7372" zValue="118" posX="4.762" posY="1.587" width="106.362" height="4.762" fontName="Arial" fontSize="10" fontWeight="bold" alignment="1">СЕМЕЙСТВО ____________________________________________</label>
+        <label id="8563" zValue="119" posX="3.175" posY="30.162" width="50.800" height="4.762" fontName="Arial" fontSize="9" alignment="1">Порода ____________________</label>
+        <label id="4644" zValue="120" posX="230.188" posY="87.312" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Балл за экстерьер ____________________</label>
+        <label id="12880" zValue="121" posX="114.300" posY="79.375" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">МО __________________________</label>
+        <line id="12417" zValue="122" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="187.325" fromY="39.688" toX="187.325" toY="77.787"/>
+        <label id="14723" zValue="123" posX="230.188" posY="58.737" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">____________________________________</label>
+        <label id="13490" zValue="124" posX="165.100" posY="50.800" width="11.112" height="6.350" fontName="Arial" fontSize="8" alignment="132">жира %</label>
+        <label id="7604" zValue="125" posX="92.075" posY="131.762" width="20.637" height="3.175" fontName="Arial" fontSize="7" alignment="36">(кличка)</label>
+        <label id="15217" zValue="126" posX="230.188" posY="34.925" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Марка и № ГКПЖ _____________________</label>
+        <field id="7843" zValue="127" posX="22.225" posY="9.525" width="47.625" height="4.762" fontName="Arial" fontSize="9" alignment="1" type="txt" ftype="ds" arg="">Name</field>
+        <label id="11197" zValue="128" posX="230.188" posY="53.975" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Порода, породность ___________________</label>
+        <label id="7308" zValue="129" posX="198.438" posY="128.588" width="25.665" height="4.762" fontName="Arial" fontSize="9" alignment="1">ООО__________</label>
+        <label id="3387" zValue="130" posX="3.175" posY="93.662" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">Порода, породность ____________</label>
+        <label id="3979" zValue="131" posX="155.575" posY="47.625" width="9.525" height="7.408" fontName="Arial" fontSize="8" alignment="36">удой
+(кг)</label>
+        <line id="12917" zValue="132" lineColor="#000000" lineStyle="solid" lineWidth="0.400" fromX="112.712" fromY="7.938" toX="112.712" toY="169.862"/>
+        <line id="5979" zValue="133" lineColor="#000000" lineStyle="solid" lineWidth="0.400" fromX="223.837" fromY="77.787" toX="1.587" toY="77.787"/>
+        <label id="7721" zValue="134" posX="247.650" posY="49.212" width="25.135" height="4.762" fontName="Arial" fontSize="7" alignment="129">марка и № ГКПЖ)</label>
+        <label id="3565" zValue="135" posX="169.862" posY="109.537" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">Живой вес _____________кг</label>
+        <line id="1037" zValue="136" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="146.050" fromY="39.688" toX="146.050" toY="77.787"/>
+        <label id="7061" zValue="137" posX="230.188" posY="120.650" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Отец _______________________________</label>
+        <label id="2226" zValue="138" posX="58.737" posY="109.537" width="53.975" height="4.762" fontName="Arial" fontSize="9" alignment="1">Живой вес _____________кг</label>
+        <label id="495" zValue="139" posX="3.175" posY="61.912" width="57.150" height="4.762" fontName="Arial" fontSize="9" alignment="1">Балл за экстерьер _______________</label>
+        <label id="357" zValue="140" posX="166.688" posY="46.037" width="17.462" height="4.762" fontName="Arial" fontSize="8" alignment="132">содержание</label>
+        <label id="3351" zValue="141" posX="58.737" posY="158.750" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(порода, породность)</label>
+        <label id="8329" zValue="142" posX="198.438" posY="134.938" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">Инд. №________</label>
+        <label id="16290" zValue="143" posX="198.438" posY="165.100" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(класс)</label>
+        <label id="6590" zValue="144" posX="114.300" posY="158.750" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(порода, породность)</label>
+        <label id="6688" zValue="145" posX="169.862" posY="161.925" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="3591" zValue="146" posX="3.175" posY="165.100" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(класс)</label>
+        <label id="12189" zValue="147" posX="142.875" posY="141.287" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="15787" zValue="148" posX="3.175" posY="185.737" width="39.688" height="4.762" fontName="Arial" fontSize="9" fontWeight="bold" alignment="1">Зоотехник-селекционер</label>
+        <label id="15106" zValue="149" posX="31.750" posY="165.100" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(класс)</label>
+        <label id="3239" zValue="150" posX="31.750" posY="147.637" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="14893" zValue="151" posX="58.737" posY="161.925" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="3053" zValue="152" posX="147.637" posY="196.850" width="41.275" height="4.762" fontName="Arial" fontSize="9" alignment="1">М.П. &quot;___&quot; _______ 20 __ г.</label>
+        <label id="679" zValue="153" posX="114.300" posY="150.812" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(№ тома ГКПЖ)</label>
+        <label id="10681" zValue="154" posX="58.737" posY="155.575" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="9519" zValue="155" posX="58.737" posY="150.812" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(№ тома ГКПЖ)</label>
+        <line id="10621" zValue="156" lineColor="#000000" lineStyle="solid" lineWidth="0.400" fromX="223.837" fromY="169.862" toX="1.587" toY="169.862"/>
+        <label id="7792" zValue="157" posX="230.188" posY="190.500" width="60.325" height="7.938" fontName="Arial" fontSize="8" fontWeight="bold" alignment="1">Главный государственный инспектор
+в области племенного животноводства</label>
+        <label id="2095" zValue="158" posX="58.737" posY="144.463" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(марка и № ГКПЖ)</label>
+        <label id="1695" zValue="159" posX="142.875" posY="165.100" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(класс)</label>
+        <label id="6139" zValue="160" posX="114.300" posY="165.100" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(класс)</label>
+        <label id="16084" zValue="161" posX="3.175" posY="141.287" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="13998" zValue="162" posX="3.175" posY="158.750" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(порода, породность)</label>
+        <label id="4699" zValue="163" posX="114.300" posY="134.938" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">Инд. №________</label>
+        <label id="7255" zValue="164" posX="3.175" posY="176.212" width="39.688" height="4.762" fontName="Arial" fontSize="9" fontWeight="bold" alignment="1">Руководитель хозяйства</label>
+        <label id="13131" zValue="165" posX="58.737" posY="147.637" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="11237" zValue="166" posX="142.875" posY="158.750" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(порода, породность)</label>
+        <label id="13609" zValue="167" posX="230.188" posY="141.287" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Адрес куда продано животное __________</label>
+        <label id="15826" zValue="168" posX="114.300" posY="147.637" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="15722" zValue="169" posX="31.750" posY="158.750" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(порода, породность)</label>
+        <label id="7454" zValue="170" posX="198.438" posY="161.925" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="8444" zValue="171" posX="114.300" posY="141.287" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="12581" zValue="172" posX="147.637" posY="176.212" width="46.037" height="11.906" fontName="Arial" fontSize="9" fontWeight="bold" alignment="1">Главный государственный
+инспектор в области
+племенного животноводства</label>
+        <label id="8015" zValue="173" posX="31.750" posY="144.463" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(марка и № ГКПЖ)</label>
+        <label id="8978" zValue="174" posX="31.750" posY="150.812" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(№ тома ГКПЖ)</label>
+        <label id="11891" zValue="175" posX="87.312" posY="147.637" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="1023" zValue="176" posX="169.862" posY="165.100" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(класс)</label>
+        <label id="10559" zValue="177" posX="169.862" posY="155.575" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="8450" zValue="178" posX="87.312" posY="150.812" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(№ тома ГКПЖ)</label>
+        <label id="14243" zValue="179" posX="3.175" posY="147.637" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="7349" zValue="180" posX="142.875" posY="144.463" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(марка и № ГКПЖ)</label>
+        <label id="2702" zValue="181" posX="31.750" posY="155.575" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="8707" zValue="182" posX="87.312" posY="165.100" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(класс)</label>
+        <label id="4118" zValue="183" posX="198.438" posY="158.750" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(порода, породность)</label>
+        <label id="8757" zValue="184" posX="3.175" posY="150.812" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(№ тома ГКПЖ)</label>
+        <label id="10687" zValue="185" posX="58.737" posY="165.100" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(класс)</label>
+        <label id="8346" zValue="186" posX="87.312" posY="141.287" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="15891" zValue="187" posX="230.188" posY="177.800" width="39.688" height="4.762" fontName="Arial" fontSize="8" fontWeight="bold" alignment="1">Зоотехник-селекционер</label>
+        <label id="8253" zValue="188" posX="142.875" posY="147.637" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="2029" zValue="189" posX="198.438" posY="155.575" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="11400" zValue="190" posX="169.862" posY="134.938" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">Инд. №________</label>
+        <label id="6432" zValue="191" posX="230.188" posY="134.938" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">№ тома ГКПЖ ________ Класс _________</label>
+        <label id="15306" zValue="192" posX="198.438" posY="141.287" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="13162" zValue="193" posX="230.188" posY="173.037" width="39.688" height="4.762" fontName="Arial" fontSize="8" fontWeight="bold" alignment="1">Руководитель хозяйства</label>
+        <label id="8935" zValue="194" posX="142.875" posY="161.925" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="12742" zValue="195" posX="169.862" posY="158.750" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(порода, породность)</label>
+        <label id="3026" zValue="196" posX="198.438" posY="147.637" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="3493" zValue="197" posX="169.862" posY="150.812" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(№ тома ГКПЖ)</label>
+        <label id="11382" zValue="198" posX="230.188" posY="182.562" width="42.333" height="7.938" fontName="Arial" fontSize="8" fontWeight="bold" alignment="1">Руководитель организации
+по племенной работе</label>
+        <label id="9876" zValue="199" posX="142.875" posY="150.812" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(№ тома ГКПЖ)</label>
+        <label id="10805" zValue="200" posX="169.862" posY="147.637" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="10321" zValue="201" posX="31.750" posY="161.925" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="13874" zValue="202" posX="3.175" posY="196.850" width="41.275" height="4.762" fontName="Arial" fontSize="9" alignment="1">М.П. &quot;___&quot; _______ 20 __ г.</label>
+        <label id="2663" zValue="203" posX="3.175" posY="161.925" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="4338" zValue="204" posX="169.862" posY="141.287" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="15811" zValue="205" posX="230.188" posY="146.050" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">____________________________________</label>
+        <label id="6182" zValue="206" posX="87.312" posY="144.463" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(марка и № ГКПЖ)</label>
+        <label id="16360" zValue="207" posX="198.438" posY="150.812" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(№ тома ГКПЖ)</label>
+        <label id="6038" zValue="208" posX="3.175" posY="144.463" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(марка и № ГКПЖ)</label>
+        <label id="2204" zValue="209" posX="114.300" posY="161.925" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="7811" zValue="210" posX="77.787" posY="196.850" width="41.275" height="4.762" fontName="Arial" fontSize="9" alignment="1">М.П. &quot;___&quot; _______ 20 __ г.</label>
+        <label id="11861" zValue="211" posX="31.750" posY="134.938" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">Инд. №________</label>
+        <label id="9467" zValue="212" posX="142.875" posY="134.938" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">Инд. №________</label>
+        <label id="16041" zValue="213" posX="114.300" posY="155.575" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="10483" zValue="214" posX="244.475" posY="166.688" width="24.871" height="4.762" fontName="Arial" fontSize="7" alignment="129">(подпись получателя)</label>
+        <label id="13189" zValue="215" posX="230.188" posY="158.750" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Дата выдачи свидетельства __________</label>
+        <label id="10542" zValue="216" posX="87.312" posY="161.925" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="13063" zValue="217" posX="3.175" posY="134.938" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">Инд. №________</label>
+        <label id="5163" zValue="218" posX="169.862" posY="144.463" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(марка и № ГКПЖ)</label>
+        <label id="14118" zValue="219" posX="58.737" posY="141.287" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="13233" zValue="220" posX="87.312" posY="134.938" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">Инд. №________</label>
+        <label id="9099" zValue="221" posX="87.312" posY="158.750" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(порода, породность)</label>
+        <label id="8639" zValue="222" posX="77.787" posY="176.212" width="30.162" height="11.906" fontName="Arial" fontSize="9" fontWeight="bold" alignment="1">Руководитель
+организации по
+племенной работе</label>
+        <label id="842" zValue="223" posX="142.875" posY="155.575" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="14819" zValue="224" posX="198.438" posY="144.463" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(марка и № ГКПЖ)</label>
+        <label id="13664" zValue="225" posX="31.750" posY="141.287" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="4667" zValue="226" posX="58.737" posY="134.938" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">Инд. №________</label>
+        <label id="1570" zValue="227" posX="87.312" posY="155.575" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="8636" zValue="228" posX="114.300" posY="144.463" width="25.400" height="3.175" fontName="Arial" fontSize="7" alignment="36">(марка и № ГКПЖ)</label>
+        <label id="9458" zValue="229" posX="3.175" posY="155.575" width="25.400" height="4.762" fontName="Arial" fontSize="9" alignment="1">______________</label>
+        <label id="9583" zValue="230" posX="230.188" posY="163.512" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">____________________________________</label>
+        <label id="8456" zValue="231" posX="230.188" posY="152.400" width="57.150" height="4.762" fontName="Arial" fontSize="8" alignment="1">Дата продажи животного ______________</label>
+    </pageheader>
+    <pagefooter id="PF" height="0.000"/>
+    <details>
+        <detail id="Detail1" height="11.906" datasource="first">
+            <items>
+                <field id="9405" zValue="0" posX="114.300" posY="-1.587" width="47.625" height="4.762" fontName="Arial" fontSize="10" alignment="1" type="txt" ftype="ds" arg="">second.id_child</field>
+                <field id="11531" zValue="1" posX="114.300" posY="7.938" width="47.625" height="4.762" fontName="Arial" fontSize="10" alignment="1" type="txt" ftype="ds" arg="">fourth.id_child</field>
+                <field id="13578" zValue="2" posX="114.300" posY="3.175" width="47.625" height="4.762" fontName="Arial" fontSize="10" alignment="1" type="txt" ftype="ds" arg="">third.id_child</field>
+            </items>
+            <groups>
+                <group id="idBulls" groupExp="idBulls" resetVariables="" reprintHeader="false" startsOnNewPage="false">
+                    <groupheader height="0.000"/>
+                    <groupfooter height="4.000"/>
+                </group>
+            </groups>
+        </detail>
+    </details>
+</NCReport>

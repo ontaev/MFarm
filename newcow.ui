@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>newCow</class>
+ <widget class="QDialog" name="newCow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>615</width>
+    <height>389</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>New cow</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="0" column="0">
+         <widget class="QLabel" name="NumberLabel">
+          <property name="text">
+           <string>Number</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QSpinBox" name="NumberTxt">
+          <property name="maximum">
+           <number>2147483647</number>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="NameLabel">
+          <property name="text">
+           <string>Name</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="NameTxt"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="InvNumLabel">
+          <property name="text">
+           <string>InvNumber</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QSpinBox" name="InvNumTxt">
+          <property name="maximum">
+           <number>2147483647</number>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="MarkLabel">
+          <property name="text">
+           <string>Mark</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="MarkTxt"/>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="BreedLabel">
+          <property name="text">
+           <string>Breed</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="BreedTxt"/>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="LineLabel">
+          <property name="text">
+           <string>Line</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLineEdit" name="LineTxt"/>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="ValidityLabel">
+          <property name="text">
+           <string>Validity</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QLineEdit" name="ValidityTxt"/>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="FamilyLabel">
+          <property name="text">
+           <string>Family</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QLineEdit" name="FamilyTxt"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_7">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>98</width>
+          <height>17</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <item row="0" column="0">
+         <widget class="QLabel" name="BirthDateLabel">
+          <property name="text">
+           <string>BirthDate</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QDateEdit" name="BirthDateTxt"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="BirthPlaceLabel">
+          <property name="text">
+           <string>BirthPlace</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="BirthPlaceTxt"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="PurposeLabel">
+          <property name="text">
+           <string>Purpose</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="PurposeTxt"/>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="FirstCalvingLabel">
+          <property name="text">
+           <string>FirstCalving</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="ColourLabel">
+          <property name="text">
+           <string>Colour</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="ColourTxt"/>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="BloodGroupLabel">
+          <property name="text">
+           <string>BloodGroup</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="InDateLabel">
+          <property name="text">
+           <string>InDate</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QDateEdit" name="InDateTxt"/>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="OwnerLabel">
+          <property name="text">
+           <string>Owner</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QLineEdit" name="OwnerTxt"/>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLineEdit" name="BloodGroupTxt"/>
+        </item>
+        <item row="3" column="1">
+         <widget class="QSpinBox" name="FirstCalvingTxt"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_8">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>117</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+     <zorder>horizontalSpacer_7</zorder>
+     <zorder>horizontalSpacer_8</zorder>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="submitButton">
+       <property name="text">
+        <string>Submit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeButton">
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

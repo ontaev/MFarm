@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NCReport version="2.8.7" name="Untitled" type="report">
+    <options>
+        <encoding>utf8</encoding>
+        <language>00</language>
+        <langrole>0</langrole>
+        <orientation>landscape</orientation>
+        <pagesize width="297.000" height="210.000">A4</pagesize>
+        <topmargin>0</topmargin>
+        <bottommargin>0</bottommargin>
+        <leftmargin>0</leftmargin>
+        <rightmargin>0</rightmargin>
+        <fontname>Arial</fontname>
+        <fontsize>10</fontsize>
+        <backcolor>#ffffff</backcolor>
+        <columns>0</columns>
+        <columnspace>0</columnspace>
+        <zoneSpacing>0</zoneSpacing>
+        <zoneBreak>false</zoneBreak>
+    </options>
+    <datasources>
+        <datasource id="DataSource1" type="sql" openRole="begin" source="static" connection="external" parentID="" connID="" host="localhost" database="test" user="root" password="root" port="" driver="QMYSQL">select * from info where id =1;</datasource>
+    </datasources>
+    <variables/>
+    <pageheader id="PH" height="0.000"/>
+    <pagefooter id="PF" height="0.000"/>
+    <details>
+        <detail id="Detail1" height="150.019" datasource="DataSource1">
+            <items>
+                <label id="6504" zValue="0" posX="4.762" posY="4.762" width="52.387" height="6.350" fontName="Times New Roman" fontSize="14" alignment="132">Кому предоставляется:</label>
+                <line id="2772" zValue="1" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="4.762" toX="150.812" toY="4.762"/>
+                <line id="11780" zValue="2" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="150.812" fromY="4.762" toX="150.812" toY="68.263"/>
+                <line id="13337" zValue="3" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="4.762" toX="4.762" toY="68.263"/>
+                <line id="11511" zValue="4" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="11.112" toX="150.812" toY="11.112"/>
+                <line id="16202" zValue="5" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="17.462" toX="150.812" toY="17.462"/>
+                <line id="2634" zValue="6" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="36.512" toX="150.812" toY="36.512"/>
+                <line id="7888" zValue="7" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="30.162" toX="150.812" toY="30.162"/>
+                <line id="3671" zValue="8" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="23.812" toX="150.812" toY="23.812"/>
+                <line id="7888" zValue="9" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="49.212" toX="150.812" toY="49.212"/>
+                <line id="3671" zValue="10" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="42.862" toX="150.812" toY="42.862"/>
+                <line id="3944" zValue="11" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="68.263" toX="150.812" toY="68.263"/>
+                <line id="6262" zValue="12" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="61.912" toX="150.812" toY="61.912"/>
+                <line id="9978" zValue="13" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="55.562" toX="150.812" toY="55.562"/>
+                <line id="10021" zValue="14" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="57.150" fromY="4.762" toX="57.150" toY="11.112"/>
+                <label id="3944" zValue="15" posX="4.762" posY="17.462" width="42.862" height="6.350" fontName="Times New Roman" fontSize="14" alignment="132">Адрес получателя:</label>
+                <line id="3557" zValue="16" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="57.150" fromY="23.812" toX="57.150" toY="17.462"/>
+                <label id="6262" zValue="17" posX="4.762" posY="23.812" width="28.575" height="6.350" fontName="Times New Roman" fontSize="14" alignment="132">Республика:</label>
+                <line id="8005" zValue="18" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="33.337" fromY="30.162" toX="33.337" toY="23.812"/>
+                <label id="9978" zValue="19" posX="4.762" posY="30.162" width="57.150" height="6.350" fontName="Times New Roman" fontSize="14" alignment="132">Наименование хозяйства:</label>
+                <line id="10712" zValue="20" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="61.912" fromY="36.512" toX="61.912" toY="30.162"/>
+                <label id="4886" zValue="21" posX="4.762" posY="42.862" width="39.688" height="6.350" fontName="Times New Roman" fontSize="14" alignment="132">Адрес хозяйства:</label>
+                <label id="4619" zValue="22" posX="4.762" posY="55.562" width="28.575" height="6.350" fontName="Times New Roman" fontSize="14" alignment="132">Республика:</label>
+                <label id="10485" zValue="23" posX="4.762" posY="61.912" width="17.462" height="6.350" fontName="Times New Roman" fontSize="14" alignment="132">Район:</label>
+                <line id="2491" zValue="24" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="49.212" fromY="49.212" toX="49.212" toY="42.862"/>
+                <line id="14688" zValue="25" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="33.337" fromY="61.912" toX="33.337" toY="55.562"/>
+                <line id="13401" zValue="26" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="25.400" fromY="68.263" toX="25.400" toY="61.912"/>
+                <label id="9789" zValue="27" posX="130.175" posY="80.962" width="18.785" height="6.350" fontName="Times New Roman" fontSize="16" fontWeight="bold" alignment="1">ОТЧЕТ</label>
+                <label id="5002" zValue="28" posX="80.962" posY="88.900" width="119.062" height="12.700" fontName="Times New Roman" fontSize="14" alignment="132">о результатах бонитировки крупного рогатого скота
+мясного направления (продуктивности)</label>
+                <label id="" zValue="29" posX="100.012" posY="101.600" width="20.637" height="6.350" fontName="Times New Roman" fontSize="14" alignment="132">порода</label>
+                <label id="7798" zValue="30" posX="117.475" posY="111.125" width="46.037" height="6.350" fontName="Times New Roman" fontSize="14" alignment="132">за                      год</label>
+                <field id="13485" zValue="31" posX="34.925" posY="55.562" width="115.887" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="129" type="txt" ftype="ds" arg="">Region</field>
+                <field id="15042" zValue="32" posX="63.500" posY="30.162" width="87.312" height="6.350" autoHeight="true" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="129" wordbreak="true" type="txt" ftype="ds" arg="">Name</field>
+                <field id="4169" zValue="33" posX="28.575" posY="61.912" width="115.887" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="129" type="txt" ftype="ds" arg="">District</field>
+                <label id="3758" zValue="34" posX="233.362" posY="6.350" width="58.737" height="17.462" fontName="Times New Roman" fontSize="10" alignment="2">Статистическая отчетность
+Форма № 7-мяс
+Согласно приказа Минсельхоза России
+от 2 августа 2010 г. № 270</label>
+            </items>
+        </detail>
+    </details>
+</NCReport>

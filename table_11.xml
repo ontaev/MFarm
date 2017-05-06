@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NCReport version="2.8.7" name="Untitled" type="report">
+    <options>
+        <encoding>utf8</encoding>
+        <language>00</language>
+        <langrole>0</langrole>
+        <orientation>landscape</orientation>
+        <pagesize width="297.000" height="210.000">A4</pagesize>
+        <topmargin>0</topmargin>
+        <bottommargin>0</bottommargin>
+        <leftmargin>0</leftmargin>
+        <rightmargin>0</rightmargin>
+        <fontname>Arial</fontname>
+        <fontsize>10</fontsize>
+        <backcolor>#ffffff</backcolor>
+        <columns>0</columns>
+        <columnspace>0</columnspace>
+        <zoneSpacing>0</zoneSpacing>
+        <zoneBreak>false</zoneBreak>
+    </options>
+    <datasources>
+        <datasource id="DataSource1" type="sql" openRole="begin" source="static" connection="external" parentID="" connID="" host="localhost" database="test" user="root" password="root" port="" driver="QMYSQL">select * from bulls</datasource>
+    </datasources>
+    <variables/>
+    <pageheader id="PH" height="0.000"/>
+    <pagefooter id="PF" height="0.000"/>
+    <details>
+        <detail id="Detail1" height="150.019" datasource="DataSource1">
+            <items>
+                <label id="" zValue="22" posX="3.175" posY="66.675" width="36.512" height="12.700" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">кличка и
+инд. номер</label>
+                <line id="" zValue="25" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="3.175" fromY="57.150" toX="295.275" toY="57.150"/>
+                <line id="11279" zValue="26" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="3.175" fromY="96.837" toX="295.275" toY="96.837"/>
+                <line id="11780" zValue="49" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="295.275" fromY="33.337" toX="295.275" toY="96.837"/>
+                <line id="2751" zValue="52" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="39.688" fromY="57.150" toX="39.688" toY="96.837"/>
+                <line id="13337" zValue="54" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="3.175" fromY="33.337" toX="3.175" toY="96.837"/>
+                <label id="9152" zValue="63" posX="19.050" posY="11.112" width="269.346" height="5.821" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="36">11. ГЕНЕАЛОГИЧЕСКАЯ СТРУКТУРА МАТОЧНОГО СТАДА ПО ПРИНАДЛЕЖНОСТИ К МУЖСКИМ ЛИНИЯМ</label>
+                <line id="2421" zValue="78" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="60.325" fromY="57.150" toX="60.325" toY="96.837"/>
+                <line id="14310" zValue="79" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="84.137" fromY="57.150" toX="84.137" toY="96.837"/>
+                <line id="6617" zValue="80" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="103.188" fromY="57.150" toX="103.188" toY="96.837"/>
+                <line id="6429" zValue="81" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="127.000" fromY="33.337" toX="127.000" toY="96.837"/>
+                <line id="11064" zValue="82" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="146.050" fromY="57.150" toX="146.050" toY="96.837"/>
+                <line id="9166" zValue="83" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="180.975" fromY="63.500" toX="180.975" toY="96.837"/>
+                <line id="509" zValue="84" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="163.512" fromY="63.500" toX="163.512" toY="96.837"/>
+                <line id="16074" zValue="85" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="198.438" fromY="63.500" toX="198.438" toY="96.837"/>
+                <line id="13509" zValue="86" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="215.900" fromY="57.150" toX="215.900" toY="96.837"/>
+                <line id="13916" zValue="87" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="255.587" fromY="63.500" toX="255.587" toY="96.837"/>
+                <line id="3311" zValue="88" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="233.362" fromY="63.500" toX="233.362" toY="96.837"/>
+                <line id="9573" zValue="89" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="277.812" fromY="57.150" toX="277.812" toY="96.837"/>
+                <label id="14309" zValue="90" posX="277.812" posY="71.438" width="17.462" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="4">Всего</label>
+                <line id="2551" zValue="91" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="146.050" fromY="63.500" toX="277.812" toY="63.500"/>
+                <line id="4216" zValue="92" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="3.175" fromY="90.487" toX="295.275" toY="90.487"/>
+                <label id="" zValue="93" posX="3.175" posY="90.487" width="36.512" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">А</label>
+                <label id="16225" zValue="99" posX="146.050" posY="90.487" width="17.462" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">2</label>
+                <label id="6429" zValue="100" posX="163.512" posY="90.487" width="17.462" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">3</label>
+                <label id="9514" zValue="101" posX="180.975" posY="90.487" width="17.462" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">4</label>
+                <label id="14309" zValue="102" posX="198.438" posY="90.487" width="17.462" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">5</label>
+                <label id="4101" zValue="103" posX="215.900" posY="90.487" width="17.462" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">6</label>
+                <label id="3093" zValue="104" posX="233.362" posY="90.487" width="22.225" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">7</label>
+                <label id="14343" zValue="105" posX="255.587" posY="90.487" width="22.225" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">8</label>
+                <label id="14139" zValue="106" posX="277.812" posY="90.487" width="17.462" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">9</label>
+                <label id="" zValue="114" posX="39.688" posY="90.487" width="20.637" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">Б</label>
+                <label id="" zValue="115" posX="60.325" posY="90.487" width="23.812" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">В</label>
+                <label id="" zValue="116" posX="84.137" posY="90.487" width="19.050" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">Г</label>
+                <label id="" zValue="117" posX="103.188" posY="90.487" width="23.812" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">Д</label>
+                <label id="14989" zValue="118" posX="127.000" posY="90.487" width="19.050" height="6.350" fontName="Times New Roman" fontSize="12" alignment="132">Е</label>
+                <label id="" zValue="119" posX="39.688" posY="66.675" width="20.637" height="12.700" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">пород-
+ность</label>
+                <label id="" zValue="120" posX="60.325" posY="63.500" width="23.812" height="20.637" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">дата и
+место
+рождения</label>
+                <label id="" zValue="121" posX="84.137" posY="63.500" width="19.050" height="20.637" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">степень
+родства</label>
+                <label id="14343" zValue="122" posX="103.188" posY="58.737" width="23.812" height="30.162" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">годы
+исполь-
+зования
+в
+хозяйстве</label>
+                <label id="" zValue="124" posX="146.050" posY="57.150" width="69.850" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">коровы в возрасте</label>
+                <label id="8816" zValue="125" posX="215.900" posY="57.150" width="61.912" height="6.350" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">телки</label>
+                <label id="" zValue="126" posX="146.050" posY="66.675" width="17.462" height="20.637" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">5 лет
+и
+старше</label>
+                <label id="4196" zValue="127" posX="163.512" posY="66.675" width="17.462" height="20.637" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">4-х лет</label>
+                <label id="14798" zValue="128" posX="180.975" posY="66.675" width="17.462" height="20.637" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">3-х лет</label>
+                <label id="" zValue="129" posX="198.438" posY="66.675" width="17.462" height="20.637" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">2-х лет</label>
+                <label id="" zValue="130" posX="215.900" posY="66.675" width="17.462" height="20.637" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">старше
+2-х лет</label>
+                <label id="11625" zValue="131" posX="255.587" posY="63.500" width="22.225" height="26.987" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">рожде-
+ния
+текущего
+года</label>
+                <label id="10773" zValue="132" posX="233.362" posY="63.500" width="22.225" height="26.987" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">рожде-
+ния
+прошлых
+лет</label>
+                <label id="4088" zValue="133" posX="127.000" posY="63.500" width="19.050" height="20.637" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">степень
+родства</label>
+                <line id="6038" zValue="134" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="3.175" fromY="33.337" toX="295.275" toY="33.337"/>
+                <label id="" zValue="135" posX="3.175" posY="36.512" width="123.825" height="17.992" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">Быки-родоначальники генеалогических групп,
+линий, родственных групп и их потомки, 
+используемые в хозяйстве</label>
+                <label id="1806" zValue="136" posX="127.000" posY="36.512" width="168.275" height="17.992" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">Количество потомков быка в маточном стаде хозяйства</label>
+            </items>
+        </detail>
+    </details>
+</NCReport>

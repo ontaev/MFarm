@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pics/FolderOpened_Yellow.png</file>
+        <file>pics/Plus__Orange.png</file>
+        <file>pics/Shutdown_Box_Red.png</file>
+        <file>pics/bull-icon.png</file>
+        <file>pics/cow-icon.png</file>
+        <file>pics/Help_Circle_Blue.png</file>
+        <file>pics/Info_Box_Blue.png</file>
+        <file>pics/Home.png</file>
+        <file>pics/Magnifier2.png</file>
+        <file>pics/Wizard1.png</file>
+        <file>pics/Settings-icon.png</file>
+        <file>pics/print-icon.png</file>
+        <file>pics/Pencil3.png</file>
+        <file>pics/calendar.png</file>
+        <file>pics/jump_date.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NCReport version="2.8.7" name="Untitled" type="report">
+    <options>
+        <encoding>utf8</encoding>
+        <language>00</language>
+        <langrole>0</langrole>
+        <orientation>landscape</orientation>
+        <pagesize width="297.000" height="210.000">A4</pagesize>
+        <topmargin>0</topmargin>
+        <bottommargin>0</bottommargin>
+        <leftmargin>0</leftmargin>
+        <rightmargin>0</rightmargin>
+        <fontname>Arial</fontname>
+        <fontsize>10</fontsize>
+        <backcolor>#ffffff</backcolor>
+        <columns>0</columns>
+        <columnspace>0</columnspace>
+        <zoneSpacing>0</zoneSpacing>
+        <zoneBreak>false</zoneBreak>
+    </options>
+    <datasources>
+        <datasource id="DataSource1" type="sql" openRole="begin" source="static" connection="external" parentID="" connID="" host="localhost" database="test" user="root" password="root" port="" driver="QMYSQL">select * from bulls</datasource>
+    </datasources>
+    <variables/>
+    <pageheader id="PH" height="0.000"/>
+    <pagefooter id="PF" height="0.000"/>
+    <details>
+        <detail id="Detail1" height="150.019" datasource="DataSource1">
+            <items>
+                <line id="11000" zValue="25" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="26.987" toX="295.275" toY="26.987"/>
+                <line id="11279" zValue="26" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="79.375" toX="295.275" toY="79.375"/>
+                <label id="" zValue="35" posX="34.925" posY="44.450" width="17.462" height="19.050" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">Всего
+голов</label>
+                <label id="11966" zValue="40" posX="52.387" posY="44.450" width="33.337" height="19.050" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">в т.ч.
+осеменено
+искусственно</label>
+                <line id="11780" zValue="49" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="295.275" fromY="26.987" toX="295.275" toY="92.075"/>
+                <line id="" zValue="52" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="34.925" fromY="26.987" toX="34.925" toY="92.075"/>
+                <line id="13337" zValue="54" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="26.987" toX="4.762" toY="92.075"/>
+                <line id="2897" zValue="62" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="92.075" toX="295.275" toY="92.075"/>
+                <label id="9152" zValue="63" posX="119.062" posY="15.875" width="79.375" height="5.821" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="36">10. СЛУЧКА КОРОВ И ТЕЛОК</label>
+                <line id="2421" zValue="78" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="52.387" fromY="42.862" toX="52.387" toY="92.075"/>
+                <line id="16074" zValue="85" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="200.025" fromY="26.987" toX="200.025" toY="92.075"/>
+                <line id="13509" zValue="86" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="220.662" fromY="26.987" toX="220.662" toY="92.075"/>
+                <line id="" zValue="87" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="252.412" fromY="42.862" toX="252.412" toY="92.075"/>
+                <line id="" zValue="88" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="236.537" fromY="42.862" toX="236.537" toY="92.075"/>
+                <line id="9573" zValue="89" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="273.050" fromY="26.987" toX="273.050" toY="92.075"/>
+                <label id="" zValue="90" posX="220.662" posY="28.575" width="52.387" height="11.906" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="4">Случено и осеменено
+телок в возрасте</label>
+                <line id="" zValue="91" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="220.662" fromY="42.862" toX="273.050" toY="42.862"/>
+                <line id="4216" zValue="92" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="66.675" toX="295.275" toY="66.675"/>
+                <line id="" zValue="114" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="34.925" fromY="42.862" toX="85.725" toY="42.862"/>
+                <line id="1626" zValue="115" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="158.750" fromY="26.987" toX="158.750" toY="92.075"/>
+                <line id="" zValue="116" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="179.387" fromY="42.862" toX="179.387" toY="92.075"/>
+                <line id="8526" zValue="117" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="138.112" fromY="26.987" toX="138.112" toY="92.075"/>
+                <line id="12953" zValue="118" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="120.650" fromY="42.862" toX="120.650" toY="92.075"/>
+                <line id="6887" zValue="119" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="85.725" fromY="26.987" toX="85.725" toY="92.075"/>
+                <line id="12896" zValue="121" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="103.188" fromY="42.862" toX="103.188" toY="92.075"/>
+                <line id="13233" zValue="123" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="85.725" fromY="42.862" toX="138.112" toY="42.862"/>
+                <label id="" zValue="124" posX="34.925" posY="30.162" width="50.800" height="7.938" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">Случено</label>
+                <label id="" zValue="125" posX="85.725" posY="30.162" width="52.387" height="7.938" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">В срок от отела</label>
+                <label id="" zValue="127" posX="85.725" posY="44.450" width="17.462" height="19.050" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">до 1
+мес.</label>
+                <label id="6559" zValue="128" posX="103.188" posY="44.450" width="17.462" height="19.050" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">от 1
+до 3
+мес.</label>
+                <label id="" zValue="129" posX="120.650" posY="44.450" width="17.462" height="19.050" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">свыше
+3 мес.</label>
+                <label id="13471" zValue="130" posX="9.525" posY="66.675" width="20.637" height="12.700" fontName="Times New Roman" fontSize="14" alignment="132">Коровы</label>
+                <label id="12053" zValue="131" posX="9.525" posY="79.375" width="20.637" height="12.700" fontName="Times New Roman" fontSize="14" alignment="132">Телки</label>
+                <label id="" zValue="132" posX="138.112" posY="34.925" width="20.637" height="23.812" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">Не
+случено,
+всего
+голов</label>
+                <label id="13350" zValue="133" posX="158.750" posY="30.162" width="41.275" height="7.938" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">В том числе</label>
+                <label id="6654" zValue="134" posX="179.387" posY="42.862" width="20.637" height="24.077" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">более
+3 мес.
+от
+отела</label>
+                <label id="" zValue="135" posX="158.750" posY="44.450" width="20.637" height="19.050" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">1 мес.
+от
+отела</label>
+                <line id="5073" zValue="136" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="158.750" fromY="42.862" toX="200.025" toY="42.862"/>
+                <label id="2963" zValue="137" posX="200.025" posY="34.925" width="20.637" height="24.077" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">Не
+отели-
+лось
+коров</label>
+                <label id="2607" zValue="138" posX="273.050" posY="31.750" width="22.225" height="30.162" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">Не
+случено
+телок
+старше
+24 мес.</label>
+                <label id="2483" zValue="139" posX="220.662" posY="44.450" width="15.875" height="19.050" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">до 18
+мес.</label>
+                <label id="911" zValue="140" posX="236.537" posY="44.450" width="15.875" height="19.050" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">18-24
+мес.</label>
+                <label id="10067" zValue="141" posX="252.412" posY="44.450" width="20.637" height="19.050" fontName="Times New Roman" fontSize="14" fontWeight="bold" alignment="132">24 мес.
+и
+старше</label>
+            </items>
+        </detail>
+    </details>
+</NCReport>

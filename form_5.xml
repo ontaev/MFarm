@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NCReport version="2.8.7" name="Untitled" type="report">
+    <options>
+        <encoding>utf8</encoding>
+        <language>00</language>
+        <langrole>0</langrole>
+        <orientation>landscape</orientation>
+        <pagesize width="594.000" height="420.000">A2</pagesize>
+        <topmargin>0</topmargin>
+        <bottommargin>0</bottommargin>
+        <leftmargin>0</leftmargin>
+        <rightmargin>0</rightmargin>
+        <fontname>Arial</fontname>
+        <fontsize>10</fontsize>
+        <backcolor>#ffffff</backcolor>
+        <columns>0</columns>
+        <columnspace>0</columnspace>
+        <zoneSpacing>0</zoneSpacing>
+        <zoneBreak>false</zoneBreak>
+    </options>
+    <datasources>
+        <datasource id="DataSource1" type="sql" openRole="begin" source="static" connection="external" parentID="" connID="" host="localhost" database="test" user="root" password="root" port="" driver="QMYSQL">select * from bulls</datasource>
+    </datasources>
+    <variables/>
+    <pageheader id="PH" height="58.737">
+        <label id="9924" zValue="-258" posX="496.887" posY="25.400" width="30.162" height="30.162" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">      экстерьеру и              
+выраженности типа          </label>
+        <label id="3570" zValue="-257" posX="449.262" posY="9.525" width="41.010" height="34.925" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">Результат ректального         
+       исследования                     </label>
+        <label id="2995" zValue="-231" posX="192.087" posY="3.175" width="46.037" height="47.625" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">Наивысшая собств. живая масса      </label>
+        <label id="" zValue="-172" posX="366.712" posY="0.000" width="50.800" height="53.975" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">Общая сумма баллов за экстерьер         </label>
+        <label id="" zValue="-171" posX="374.650" posY="9.525" width="31.750" height="33.337" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">класс за экстерьер             
+и выраженность типа          </label>
+        <label id="" zValue="-170" posX="385.762" posY="9.525" width="31.750" height="33.337" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">Межотельный период      </label>
+        <label id="5436" zValue="-135" posX="200.025" posY="17.462" width="34.925" height="33.337" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">Класс по живой массе      </label>
+        <line id="" zValue="0" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="1.587" toX="4.762" toY="53.975"/>
+        <line id="" zValue="1" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="1.587" toX="287.337" toY="1.587"/>
+        <label id="5193" zValue="2" posX="11.112" posY="1.587" width="20.637" height="8.202" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132">Индив.
+номер</label>
+        <label id="7238" zValue="3" posX="23.812" posY="7.938" width="36.512" height="31.750" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="1" rotation="270" wordbreak="true">ушная татуировка           </label>
+        <label id="754" zValue="4" posX="46.037" posY="20.637" width="14.287" height="11.112" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="36" wordbreak="true">Масть, 
+особые 
+приметы</label>
+        <label id="41" zValue="5" posX="61.912" posY="15.875" width="17.462" height="22.225" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="1" rotation="270">породность        </label>
+        <label id="2083" zValue="6" posX="68.263" posY="30.162" width="12.700" height="9.525" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="36" wordbreak="true">индив. 
+номер</label>
+        <label id="3557" zValue="7" posX="68.263" posY="12.700" width="30.162" height="4.762" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132">мать</label>
+        <label id="12092" zValue="8" posX="98.425" posY="12.700" width="52.387" height="4.762" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132">отец</label>
+        <label id="6334" zValue="9" posX="84.137" posY="7.938" width="35.190" height="4.762" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132">происхождение</label>
+        <line id="15255" zValue="10" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="287.337" fromY="1.587" toX="287.337" toY="53.975"/>
+        <label id="" zValue="11" posX="301.625" posY="1.587" width="42.862" height="8.202" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">Оценка конституции и экстерьера</label>
+        <line id="3878" zValue="12" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="598.487" fromY="3.175" toX="598.487" toY="61.912"/>
+        <line id="1655" zValue="13" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="296.863" fromY="1.587" toX="584.200" toY="1.587"/>
+        <line id="" zValue="14" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="296.863" fromY="53.975" toX="296.863" toY="1.587"/>
+        <label id="9220" zValue="19" posX="14.287" posY="11.112" width="33.337" height="28.575" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="1" rotation="270" wordbreak="true">технологический          </label>
+        <label id="1806" zValue="20" posX="98.425" posY="28.575" width="12.700" height="9.525" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">кличка</label>
+        <label id="7745" zValue="24" posX="141.287" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">14</label>
+        <label id="7845" zValue="25" posX="88.900" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">9</label>
+        <label id="4565" zValue="26" posX="131.762" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">13</label>
+        <label id="6559" zValue="27" posX="79.375" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">8</label>
+        <label id="8932" zValue="28" posX="180.975" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">18</label>
+        <label id="5912" zValue="29" posX="163.512" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">16</label>
+        <label id="13471" zValue="30" posX="33.337" posY="53.975" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">4</label>
+        <label id="12053" zValue="31" posX="11.112" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">2</label>
+        <label id="578" zValue="32" posX="68.263" posY="53.975" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">7</label>
+        <label id="3584" zValue="33" posX="111.125" posY="53.975" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">11</label>
+        <label id="13350" zValue="34" posX="150.812" posY="53.975" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">15</label>
+        <label id="6654" zValue="35" posX="123.825" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">12</label>
+        <label id="588" zValue="36" posX="60.325" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">6</label>
+        <label id="5073" zValue="37" posX="98.425" posY="53.975" width="12.700" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">10</label>
+        <label id="14369" zValue="38" posX="47.625" posY="53.975" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">5</label>
+        <label id="6148" zValue="39" posX="20.637" posY="53.975" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">3</label>
+        <label id="2963" zValue="40" posX="171.450" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">17</label>
+        <label id="2607" zValue="41" posX="4.762" posY="53.975" width="6.350" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">1</label>
+        <label id="12193" zValue="42" posX="190.500" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">19</label>
+        <label id="12734" zValue="43" posX="198.438" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">20</label>
+        <label id="1637" zValue="44" posX="206.375" posY="53.975" width="6.350" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">21</label>
+        <label id="10150" zValue="45" posX="212.725" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">22</label>
+        <label id="5556" zValue="46" posX="220.662" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">23</label>
+        <label id="1993" zValue="47" posX="241.300" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">26</label>
+        <label id="10176" zValue="48" posX="249.237" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">27</label>
+        <label id="9321" zValue="49" posX="228.600" posY="53.975" width="6.350" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">24</label>
+        <label id="6962" zValue="50" posX="234.950" posY="53.975" width="6.350" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">25</label>
+        <label id="12263" zValue="51" posX="271.462" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">30</label>
+        <label id="4313" zValue="52" posX="279.400" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">31</label>
+        <label id="7971" zValue="53" posX="257.175" posY="53.975" width="6.350" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">28</label>
+        <label id="14801" zValue="54" posX="263.525" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">29</label>
+        <label id="" zValue="55" posX="296.863" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">32</label>
+        <label id="" zValue="56" posX="312.737" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">34</label>
+        <label id="" zValue="57" posX="320.675" posY="53.975" width="6.350" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">35</label>
+        <label id="" zValue="58" posX="304.800" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">33</label>
+        <label id="" zValue="59" posX="327.025" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">36</label>
+        <label id="" zValue="60" posX="334.962" posY="53.975" width="6.350" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">37</label>
+        <label id="" zValue="61" posX="341.312" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">38</label>
+        <label id="" zValue="62" posX="349.250" posY="53.975" width="6.350" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">39</label>
+        <label id="16294" zValue="63" posX="31.750" posY="22.225" width="14.287" height="7.938" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="36" wordbreak="true">Линия
+отца</label>
+        <label id="10116" zValue="64" posX="90.487" posY="20.637" width="7.938" height="22.225" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="1" rotation="270">класс                </label>
+        <label id="2785" zValue="65" posX="131.762" posY="22.225" width="29.898" height="25.400" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="1" rotation="270">класс по собств.         
+продуктивности          </label>
+        <label id="" zValue="80" posX="396.875" posY="1.587" width="42.862" height="8.202" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">Молочность коровы</label>
+        <line id="6279" zValue="112" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="296.863" fromY="58.737" toX="584.200" toY="58.737"/>
+        <label id="" zValue="113" posX="355.600" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">40</label>
+        <label id="" zValue="114" posX="363.537" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">41</label>
+        <line id="12164" zValue="115" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="58.737" toX="287.337" toY="58.737"/>
+        <label id="1014" zValue="116" posX="88.900" posY="1.587" width="35.190" height="6.350" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132">ГЕНОТИП</label>
+        <label id="" zValue="117" posX="80.962" posY="23.812" width="17.462" height="22.225" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="1" rotation="270">породность        </label>
+        <label id="12193" zValue="118" posX="125.412" posY="22.225" width="7.938" height="19.050" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">класс                </label>
+        <label id="" zValue="119" posX="111.125" posY="28.575" width="12.700" height="9.525" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="36" wordbreak="true">индив. 
+номер</label>
+        <label id="10150" zValue="120" posX="141.287" posY="20.637" width="26.987" height="28.575" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="1" rotation="270">класс по качеству         
+      потомства                 </label>
+        <label id="" zValue="121" posX="150.812" posY="20.637" width="12.700" height="12.700" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="36" wordbreak="true">Дата
+рож-
+дения</label>
+        <label id="11478" zValue="122" posX="171.450" posY="4.762" width="19.050" height="7.938" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="36" wordbreak="true">При 
+бонитировке
+</label>
+        <label id="12974" zValue="123" posX="236.537" posY="1.587" width="17.462" height="6.350" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">ПРОМЕРЫ</label>
+        <label id="" zValue="124" posX="206.375" posY="9.525" width="12.700" height="7.938" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="36" wordbreak="true">высо-
+та в</label>
+        <label id="8080" zValue="125" posX="228.600" posY="9.525" width="12.700" height="9.525" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="36" wordbreak="true">ширина</label>
+        <label id="5705" zValue="126" posX="241.300" posY="9.525" width="22.225" height="7.938" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="36" wordbreak="true">косая
+длина</label>
+        <label id="11761" zValue="127" posX="265.113" posY="9.525" width="14.287" height="7.938" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="36" wordbreak="true">обхват</label>
+        <label id="443" zValue="128" posX="4.762" posY="22.225" width="6.350" height="7.938" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="36" wordbreak="true">№
+п/п</label>
+        <label id="" zValue="129" posX="165.100" posY="19.050" width="25.665" height="23.812" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">Отел по счету       </label>
+        <label id="" zValue="130" posX="174.625" posY="19.050" width="26.458" height="23.812" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">живая масса, кг      </label>
+        <label id="11942" zValue="132" posX="182.562" posY="22.225" width="21.431" height="19.050" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">упитанность     </label>
+        <label id="" zValue="133" posX="207.962" posY="23.812" width="9.525" height="15.875" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">холке            </label>
+        <label id="" zValue="136" posX="214.312" posY="25.400" width="12.700" height="15.875" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">крестце        </label>
+        <label id="" zValue="137" posX="228.600" posY="19.050" width="31.485" height="30.162" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">груди за лопатками      </label>
+        <label id="" zValue="138" posX="222.250" posY="17.462" width="25.665" height="23.812" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">глубина груди        </label>
+        <label id="292" zValue="139" posX="242.887" posY="17.462" width="35.454" height="33.337" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">в седалищных буграх       </label>
+        <label id="" zValue="140" posX="234.950" posY="23.812" width="21.431" height="19.050" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">в маклоках       </label>
+        <label id="1037" zValue="141" posX="250.825" posY="20.637" width="15.875" height="19.050" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">туловища        </label>
+        <label id="" zValue="142" posX="258.762" posY="25.400" width="12.171" height="11.112" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">зада        </label>
+        <label id="3334" zValue="143" posX="273.050" posY="26.987" width="9.525" height="12.700" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">пясти        </label>
+        <label id="3511" zValue="144" posX="265.113" posY="26.987" width="7.938" height="12.700" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">груди        </label>
+        <label id="5342" zValue="145" posX="280.988" posY="15.875" width="29.104" height="26.987" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">полуобхват зада        </label>
+        <line id="14938" zValue="147" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="584.200" fromY="53.975" toX="584.200" toY="1.587"/>
+        <label id="" zValue="148" posX="296.863" posY="9.525" width="15.875" height="15.875" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">общий
+вид
+и разви-
+тие</label>
+        <label id="" zValue="149" posX="312.737" posY="9.525" width="50.800" height="15.875" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">стати экстерьера</label>
+        <label id="" zValue="150" posX="419.100" posY="9.525" width="23.812" height="15.875" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">наивысшая 
+молочность</label>
+        <label id="" zValue="151" posX="393.700" posY="9.525" width="15.875" height="15.875" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">текущий год</label>
+        <label id="" zValue="152" posX="468.312" posY="9.525" width="69.850" height="15.875" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">баллы по</label>
+        <label id="6868" zValue="153" posX="511.175" posY="25.400" width="15.875" height="6.350" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">генотип</label>
+        <label id="9163" zValue="154" posX="554.038" posY="20.637" width="14.287" height="15.875" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">ком-
+плекс-
+ный
+класс</label>
+        <label id="11260" zValue="155" posX="568.325" posY="20.637" width="15.875" height="15.875" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">Назначе-
+ние</label>
+        <label id="16278" zValue="156" posX="517.525" posY="31.750" width="12.700" height="6.350" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">класс</label>
+        <label id="12859" zValue="157" posX="490.537" posY="1.587" width="63.500" height="8.202" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="132" wordbreak="true">Оценка коровы по комплексу признаков</label>
+        <label id="" zValue="158" posX="296.863" posY="25.400" width="25.400" height="26.987" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">выраженность по-           
+       роды                          </label>
+        <label id="" zValue="159" posX="306.387" posY="28.575" width="24.342" height="23.812" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">мускулатура        </label>
+        <label id="" zValue="160" posX="314.325" posY="28.575" width="23.812" height="22.225" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">голова и шея       </label>
+        <label id="" zValue="161" posX="320.675" posY="33.337" width="7.938" height="12.700" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">грудь          </label>
+        <label id="12316" zValue="162" posX="327.025" posY="30.162" width="20.637" height="20.637" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">холка, спина,         
+    поясница              </label>
+        <label id="" zValue="163" posX="336.550" posY="34.925" width="15.610" height="12.700" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">крестец      </label>
+        <label id="" zValue="164" posX="342.900" posY="34.925" width="16.669" height="12.700" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">окорок      </label>
+        <label id="" zValue="165" posX="357.188" posY="31.750" width="19.050" height="19.050" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">конечности      </label>
+        <label id="" zValue="166" posX="350.837" posY="34.925" width="13.229" height="12.700" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">вымя       </label>
+        <label id="" zValue="173" posX="395.287" posY="28.575" width="21.960" height="19.050" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">пол теленка      </label>
+        <label id="" zValue="174" posX="403.225" posY="26.987" width="20.637" height="20.637" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">живая масса           
+   в 205 дн.                </label>
+        <label id="7986" zValue="175" posX="414.337" posY="31.750" width="6.350" height="9.525" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">год         </label>
+        <label id="15350" zValue="176" posX="430.212" posY="25.400" width="19.050" height="23.812" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">отел по счету       </label>
+        <label id="" zValue="179" posX="422.275" posY="26.987" width="21.960" height="19.050" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="1" rotation="270">пол теленка      </label>
+        <label id="3245" zValue="180" posX="438.150" posY="26.987" width="20.637" height="20.637" fontName="Times New Roman" fontSize="8" fontWeight="bold" alignment="1" rotation="270">живая масса           
+   в 205 дн.                </label>
+        <label id="7700" zValue="181" posX="460.375" posY="17.462" width="14.287" height="17.462" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">Возраст         </label>
+        <label id="" zValue="183" posX="468.312" posY="30.162" width="22.754" height="20.637" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">молочности        </label>
+        <label id="" zValue="184" posX="476.250" posY="26.987" width="23.812" height="26.987" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">воспроизводит.            
+   способности              </label>
+        <label id="13931" zValue="185" posX="488.950" posY="28.575" width="17.462" height="22.225" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">живой массе         </label>
+        <label id="" zValue="187" posX="508.000" posY="34.925" width="19.844" height="17.462" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">породность     </label>
+        <label id="" zValue="188" posX="515.938" posY="39.688" width="11.112" height="12.700" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">матери      </label>
+        <label id="11323" zValue="189" posX="523.875" posY="41.275" width="7.938" height="7.938" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">отца      </label>
+        <label id="" zValue="190" posX="533.400" posY="26.987" width="30.162" height="23.812" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">      собств.                   
+продуктивность          </label>
+        <label id="5154" zValue="191" posX="544.512" posY="20.637" width="25.929" height="20.637" fontName="Times New Roman" fontSize="8" fontWeight="bold" rotation="270">общая сумма        
+     баллов               </label>
+        <line id="5249" zValue="192" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="53.975" toX="287.337" toY="53.975"/>
+        <line id="135" zValue="193" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="11.112" fromY="1.587" toX="11.112" toY="53.975"/>
+        <line id="15172" zValue="194" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="31.750" fromY="1.587" toX="31.750" toY="53.975"/>
+        <line id="" zValue="195" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="46.037" fromY="1.587" toX="46.037" toY="53.975"/>
+        <line id="13919" zValue="196" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="60.325" fromY="1.587" toX="60.325" toY="53.975"/>
+        <line id="6224" zValue="197" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="68.263" fromY="1.587" toX="68.263" toY="53.975"/>
+        <line id="" zValue="198" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="68.263" fromY="7.938" toX="150.812" toY="7.938"/>
+        <line id="" zValue="199" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="79.375" fromY="17.462" toX="79.375" toY="53.975"/>
+        <line id="16225" zValue="200" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="88.900" fromY="17.462" toX="88.900" toY="53.975"/>
+        <line id="14989" zValue="201" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="98.425" fromY="12.700" toX="98.425" toY="53.975"/>
+        <line id="16318" zValue="202" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="111.125" fromY="17.462" toX="111.125" toY="53.975"/>
+        <line id="3195" zValue="203" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="123.825" fromY="17.462" toX="123.825" toY="53.975"/>
+        <line id="4101" zValue="204" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="131.762" fromY="17.462" toX="131.762" toY="53.975"/>
+        <line id="3093" zValue="205" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="141.287" fromY="17.462" toX="141.287" toY="53.975"/>
+        <line id="" zValue="206" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="150.812" fromY="1.587" toX="150.812" toY="53.975"/>
+        <line id="14139" zValue="207" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="68.263" fromY="12.700" toX="150.812" toY="12.700"/>
+        <line id="1587" zValue="208" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="68.263" fromY="17.462" toX="150.812" toY="17.462"/>
+        <line id="12930" zValue="209" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="11.112" fromY="9.525" toX="31.750" toY="9.525"/>
+        <line id="9503" zValue="210" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="20.637" fromY="9.525" toX="20.637" toY="53.975"/>
+        <line id="8816" zValue="211" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="163.512" fromY="1.587" toX="163.512" toY="53.975"/>
+        <line id="13458" zValue="212" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="171.450" fromY="1.587" toX="171.450" toY="53.975"/>
+        <line id="6618" zValue="213" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="190.500" fromY="1.587" toX="190.500" toY="53.975"/>
+        <line id="4196" zValue="214" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="171.450" fromY="12.700" toX="190.500" toY="12.700"/>
+        <line id="3412" zValue="215" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="180.975" fromY="12.700" toX="180.975" toY="53.975"/>
+        <line id="14798" zValue="216" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="198.438" fromY="1.587" toX="198.438" toY="53.975"/>
+        <line id="15281" zValue="217" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="206.375" fromY="1.587" toX="206.375" toY="53.975"/>
+        <line id="4414" zValue="218" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="206.375" fromY="7.938" toX="287.337" toY="7.938"/>
+        <line id="" zValue="219" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="220.662" fromY="7.938" toX="220.662" toY="53.975"/>
+        <line id="10773" zValue="220" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="228.600" fromY="7.938" toX="228.600" toY="53.975"/>
+        <line id="4088" zValue="221" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="206.375" fromY="17.462" toX="220.662" toY="17.462"/>
+        <line id="7238" zValue="222" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="212.725" fromY="17.462" toX="212.725" toY="53.975"/>
+        <line id="2154" zValue="223" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="279.400" fromY="7.938" toX="279.400" toY="53.975"/>
+        <line id="12292" zValue="224" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="228.600" fromY="17.462" toX="279.400" toY="17.462"/>
+        <line id="6038" zValue="225" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="271.462" fromY="17.462" toX="271.462" toY="53.975"/>
+        <line id="7795" zValue="226" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="263.525" fromY="7.938" toX="263.525" toY="53.975"/>
+        <line id="1806" zValue="227" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="241.300" fromY="7.938" toX="241.300" toY="53.975"/>
+        <line id="13273" zValue="228" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="234.950" fromY="17.462" toX="234.950" toY="53.975"/>
+        <line id="" zValue="229" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="249.237" fromY="17.462" toX="249.237" toY="53.975"/>
+        <line id="3431" zValue="230" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="257.175" fromY="17.462" toX="257.175" toY="53.975"/>
+        <line id="2772" zValue="232" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="296.863" fromY="9.525" toX="363.537" toY="9.525"/>
+        <line id="11511" zValue="233" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="312.737" fromY="9.525" toX="312.737" toY="53.975"/>
+        <line id="16202" zValue="234" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="363.537" fromY="1.587" toX="363.537" toY="53.975"/>
+        <line id="2634" zValue="235" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="296.863" fromY="25.400" toX="363.537" toY="25.400"/>
+        <line id="3671" zValue="236" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="304.800" fromY="25.400" toX="304.800" toY="53.975"/>
+        <line id="3944" zValue="237" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="296.863" fromY="53.975" toX="584.200" toY="53.975"/>
+        <line id="" zValue="238" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="320.675" fromY="25.400" toX="320.675" toY="53.975"/>
+        <line id="9978" zValue="239" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="327.025" fromY="25.400" toX="327.025" toY="53.975"/>
+        <line id="4886" zValue="240" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="334.962" fromY="25.400" toX="334.962" toY="53.975"/>
+        <line id="2491" zValue="241" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="341.312" fromY="25.400" toX="341.312" toY="53.975"/>
+        <line id="12049" zValue="242" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="349.250" fromY="25.400" toX="349.250" toY="53.975"/>
+        <line id="13485" zValue="243" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="355.600" fromY="25.400" toX="355.600" toY="53.975"/>
+        <line id="3758" zValue="244" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="373.062" fromY="1.587" toX="373.062" toY="53.975"/>
+        <line id="" zValue="245" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="382.587" fromY="1.587" toX="382.587" toY="53.975"/>
+        <line id="1416" zValue="246" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="392.112" fromY="1.587" toX="392.112" toY="53.975"/>
+        <line id="5497" zValue="247" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="392.112" fromY="9.525" toX="447.675" toY="9.525"/>
+        <line id="15614" zValue="248" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="392.112" fromY="25.400" toX="447.675" toY="25.400"/>
+        <line id="" zValue="249" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="401.637" fromY="25.400" toX="401.637" toY="53.975"/>
+        <line id="2267" zValue="250" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="412.750" fromY="9.525" toX="412.750" toY="53.975"/>
+        <line id="10021" zValue="251" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="420.688" fromY="25.400" toX="420.688" toY="53.975"/>
+        <line id="5699" zValue="252" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="428.625" fromY="25.400" toX="428.625" toY="53.975"/>
+        <line id="3557" zValue="253" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="436.562" fromY="25.400" toX="436.562" toY="53.975"/>
+        <line id="" zValue="254" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="447.675" fromY="1.587" toX="447.675" toY="53.975"/>
+        <line id="8005" zValue="255" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="458.787" fromY="1.587" toX="458.787" toY="53.975"/>
+        <line id="5075" zValue="256" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="466.725" fromY="1.587" toX="466.725" toY="53.975"/>
+        <line id="2510" zValue="259" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="466.725" fromY="9.525" toX="568.325" toY="9.525"/>
+        <line id="10485" zValue="260" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="466.725" fromY="25.400" toX="542.925" toY="25.400"/>
+        <line id="1477" zValue="261" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="554.038" fromY="9.525" toX="554.038" toY="53.975"/>
+        <line id="14688" zValue="262" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="568.325" fromY="1.587" toX="568.325" toY="53.975"/>
+        <line id="13401" zValue="263" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="542.925" fromY="9.525" toX="542.925" toY="53.975"/>
+        <line id="" zValue="264" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="531.812" fromY="25.400" toX="531.812" toY="53.975"/>
+        <line id="" zValue="265" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="476.250" fromY="25.400" toX="476.250" toY="53.975"/>
+        <line id="39" zValue="266" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="485.775" fromY="25.400" toX="485.775" toY="53.975"/>
+        <line id="" zValue="267" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="495.300" fromY="25.400" toX="495.300" toY="53.975"/>
+        <line id="7798" zValue="268" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="506.412" fromY="25.400" toX="506.412" toY="53.975"/>
+        <line id="10285" zValue="269" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="506.412" fromY="31.750" toX="531.812" toY="31.750"/>
+        <line id="10704" zValue="270" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="514.350" fromY="31.750" toX="514.350" toY="53.975"/>
+        <line id="15042" zValue="271" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="514.350" fromY="38.100" toX="531.812" toY="38.100"/>
+        <line id="12233" zValue="272" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="522.288" fromY="38.100" toX="522.288" toY="53.975"/>
+        <label id="" zValue="273" posX="428.625" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">48</label>
+        <label id="" zValue="274" posX="373.062" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">42</label>
+        <label id="" zValue="275" posX="447.675" posY="53.975" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">50</label>
+        <label id="" zValue="276" posX="401.637" posY="53.975" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">45</label>
+        <label id="" zValue="277" posX="420.688" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">47</label>
+        <label id="" zValue="278" posX="458.787" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">51</label>
+        <label id="" zValue="279" posX="392.112" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">44</label>
+        <label id="" zValue="280" posX="412.750" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">46</label>
+        <label id="" zValue="281" posX="436.562" posY="53.975" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">49</label>
+        <label id="" zValue="282" posX="382.587" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">43</label>
+        <label id="165" zValue="283" posX="514.350" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">57</label>
+        <label id="7441" zValue="284" posX="542.925" posY="53.975" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">60</label>
+        <label id="9512" zValue="285" posX="476.250" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">53</label>
+        <label id="13761" zValue="286" posX="531.812" posY="53.975" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">59</label>
+        <label id="" zValue="287" posX="554.038" posY="53.975" width="14.287" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">61</label>
+        <label id="5334" zValue="288" posX="522.288" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">58</label>
+        <label id="3753" zValue="289" posX="485.775" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">54</label>
+        <label id="16139" zValue="290" posX="506.412" posY="53.975" width="7.938" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">56</label>
+        <label id="12423" zValue="291" posX="495.300" posY="53.975" width="11.112" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">55</label>
+        <label id="16279" zValue="292" posX="466.725" posY="53.975" width="9.525" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">52</label>
+        <label id="12529" zValue="293" posX="568.325" posY="53.975" width="15.875" height="4.762" fontName="Times New Roman" fontSize="8" alignment="132" wordbreak="true">62</label>
+        <line id="16282" zValue="294" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="257.175" fromY="53.975" toX="257.175" toY="58.737"/>
+        <line id="12455" zValue="295" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="31.750" fromY="53.975" toX="31.750" toY="58.737"/>
+        <line id="9350" zValue="296" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="206.375" fromY="53.975" toX="206.375" toY="58.737"/>
+        <line id="1730" zValue="297" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="79.375" fromY="53.975" toX="79.375" toY="58.737"/>
+        <line id="11701" zValue="298" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="220.662" fromY="53.975" toX="220.662" toY="58.737"/>
+        <line id="14932" zValue="299" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="20.637" fromY="53.975" toX="20.637" toY="58.737"/>
+        <line id="4287" zValue="300" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="150.812" fromY="53.975" toX="150.812" toY="58.737"/>
+        <line id="5786" zValue="301" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="212.725" fromY="53.975" toX="212.725" toY="58.737"/>
+        <line id="12263" zValue="302" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="141.287" fromY="53.975" toX="141.287" toY="58.737"/>
+        <line id="4313" zValue="303" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="249.237" fromY="53.975" toX="249.237" toY="58.737"/>
+        <line id="7971" zValue="304" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="11.112" fromY="53.975" toX="11.112" toY="58.737"/>
+        <line id="14801" zValue="305" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="111.125" fromY="53.975" toX="111.125" toY="58.737"/>
+        <line id="3669" zValue="306" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="279.400" fromY="53.975" toX="279.400" toY="58.737"/>
+        <line id="912" zValue="307" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="131.762" fromY="53.975" toX="131.762" toY="58.737"/>
+        <line id="10808" zValue="308" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="123.825" fromY="53.975" toX="123.825" toY="58.737"/>
+        <line id="1832" zValue="309" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="53.975" toX="4.762" toY="58.737"/>
+        <line id="4561" zValue="310" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="271.462" fromY="53.975" toX="271.462" toY="58.737"/>
+        <line id="4313" zValue="311" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="180.975" fromY="53.975" toX="180.975" toY="58.737"/>
+        <line id="11372" zValue="312" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="98.425" fromY="53.975" toX="98.425" toY="58.737"/>
+        <line id="11937" zValue="313" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="198.438" fromY="53.975" toX="198.438" toY="58.737"/>
+        <line id="3174" zValue="314" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="190.500" fromY="53.975" toX="190.500" toY="58.737"/>
+        <line id="7262" zValue="315" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="287.337" fromY="53.975" toX="287.337" toY="58.737"/>
+        <line id="11598" zValue="316" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="241.300" fromY="53.975" toX="241.300" toY="58.737"/>
+        <line id="481" zValue="317" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="88.900" fromY="53.975" toX="88.900" toY="58.737"/>
+        <line id="4144" zValue="318" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="263.525" fromY="53.975" toX="263.525" toY="58.737"/>
+        <line id="6812" zValue="319" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="68.263" fromY="53.975" toX="68.263" toY="58.737"/>
+        <line id="3838" zValue="320" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="60.325" fromY="53.975" toX="60.325" toY="58.737"/>
+        <line id="7129" zValue="321" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="171.450" fromY="53.975" toX="171.450" toY="58.737"/>
+        <line id="2161" zValue="322" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="228.600" fromY="53.975" toX="228.600" toY="58.737"/>
+        <line id="5535" zValue="323" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="46.037" fromY="53.975" toX="46.037" toY="58.737"/>
+        <line id="4066" zValue="324" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="163.512" fromY="53.975" toX="163.512" toY="58.737"/>
+        <line id="11173" zValue="325" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="234.950" fromY="53.975" toX="234.950" toY="58.737"/>
+        <line id="4474" zValue="326" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="554.038" fromY="53.975" toX="554.038" toY="58.737"/>
+        <line id="11638" zValue="327" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="495.300" fromY="53.975" toX="495.300" toY="58.737"/>
+        <line id="2168" zValue="328" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="568.325" fromY="53.975" toX="568.325" toY="58.737"/>
+        <line id="14018" zValue="329" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="355.600" fromY="53.975" toX="355.600" toY="58.737"/>
+        <line id="2403" zValue="330" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="531.812" fromY="53.975" toX="531.812" toY="58.737"/>
+        <line id="9905" zValue="331" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="320.675" fromY="53.975" toX="320.675" toY="58.737"/>
+        <line id="1574" zValue="332" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="428.625" fromY="53.975" toX="428.625" toY="58.737"/>
+        <line id="7391" zValue="333" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="514.350" fromY="53.975" toX="514.350" toY="58.737"/>
+        <line id="10202" zValue="334" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="401.637" fromY="53.975" toX="401.637" toY="58.737"/>
+        <line id="3625" zValue="335" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="327.025" fromY="53.975" toX="327.025" toY="58.737"/>
+        <line id="10093" zValue="336" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="392.112" fromY="53.975" toX="392.112" toY="58.737"/>
+        <line id="4414" zValue="337" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="447.675" fromY="53.975" toX="447.675" toY="58.737"/>
+        <line id="9314" zValue="338" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="382.587" fromY="53.975" toX="382.587" toY="58.737"/>
+        <line id="9440" zValue="339" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="412.750" fromY="53.975" toX="412.750" toY="58.737"/>
+        <line id="12950" zValue="340" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="373.062" fromY="53.975" toX="373.062" toY="58.737"/>
+        <line id="9490" zValue="341" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="334.962" fromY="53.975" toX="334.962" toY="58.737"/>
+        <line id="7988" zValue="342" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="296.863" fromY="53.975" toX="296.863" toY="58.737"/>
+        <line id="3775" zValue="343" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="522.288" fromY="53.975" toX="522.288" toY="58.737"/>
+        <line id="11833" zValue="344" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="542.925" fromY="53.975" toX="542.925" toY="58.737"/>
+        <line id="11686" zValue="345" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="304.800" fromY="53.975" toX="304.800" toY="58.737"/>
+        <line id="7487" zValue="346" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="436.562" fromY="53.975" toX="436.562" toY="58.737"/>
+        <line id="11913" zValue="347" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="485.775" fromY="53.975" toX="485.775" toY="58.737"/>
+        <line id="7518" zValue="348" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="312.737" fromY="53.975" toX="312.737" toY="58.737"/>
+        <line id="8177" zValue="349" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="349.250" fromY="53.975" toX="349.250" toY="58.737"/>
+        <line id="1389" zValue="350" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="466.725" fromY="53.975" toX="466.725" toY="58.737"/>
+        <line id="15886" zValue="351" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="341.312" fromY="53.975" toX="341.312" toY="58.737"/>
+        <line id="1763" zValue="352" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="476.250" fromY="53.975" toX="476.250" toY="58.737"/>
+        <line id="2668" zValue="353" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="420.688" fromY="53.975" toX="420.688" toY="58.737"/>
+        <line id="808" zValue="354" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="506.412" fromY="53.975" toX="506.412" toY="58.737"/>
+        <line id="13985" zValue="355" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="363.537" fromY="53.975" toX="363.537" toY="58.737"/>
+        <line id="3102" zValue="356" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="458.787" fromY="53.975" toX="458.787" toY="58.737"/>
+        <line id="8480" zValue="357" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="584.200" fromY="53.975" toX="584.200" toY="58.737"/>
+    </pageheader>
+    <pagefooter id="PF" height="0.000"/>
+    <details>
+        <detail id="Detail1" height="4.762" datasource="DataSource1">
+            <items>
+                <line id="" zValue="0" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="0.000" toX="4.762" toY="4.762"/>
+                <line id="11367" zValue="1" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="4.762" fromY="4.762" toX="287.337" toY="4.762"/>
+                <line id="" zValue="2" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="11.112" fromY="0.000" toX="11.112" toY="4.762"/>
+                <line id="" zValue="3" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="20.637" fromY="0.000" toX="20.637" toY="4.762"/>
+                <line id="" zValue="4" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="31.750" fromY="0.000" toX="31.750" toY="4.762"/>
+                <line id="" zValue="5" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="46.037" fromY="0.000" toX="46.037" toY="4.762"/>
+                <line id="" zValue="6" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="60.325" fromY="0.000" toX="60.325" toY="4.762"/>
+                <line id="" zValue="7" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="68.263" fromY="0.000" toX="68.263" toY="4.762"/>
+                <line id="" zValue="8" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="88.900" fromY="0.000" toX="88.900" toY="4.762"/>
+                <line id="" zValue="9" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="98.425" fromY="0.000" toX="98.425" toY="4.762"/>
+                <line id="" zValue="10" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="111.125" fromY="0.000" toX="111.125" toY="4.762"/>
+                <line id="" zValue="11" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="79.375" fromY="0.000" toX="79.375" toY="4.762"/>
+                <line id="" zValue="12" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="123.825" fromY="0.000" toX="123.825" toY="4.762"/>
+                <line id="" zValue="13" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="150.812" fromY="0.000" toX="150.812" toY="4.762"/>
+                <line id="" zValue="14" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="163.512" fromY="0.000" toX="163.512" toY="4.762"/>
+                <line id="" zValue="15" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="171.450" fromY="0.000" toX="171.450" toY="4.762"/>
+                <line id="" zValue="16" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="131.762" fromY="0.000" toX="131.762" toY="4.762"/>
+                <line id="" zValue="17" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="141.287" fromY="0.000" toX="141.287" toY="4.762"/>
+                <line id="" zValue="18" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="206.375" fromY="0.000" toX="206.375" toY="4.762"/>
+                <line id="" zValue="19" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="584.200" fromY="0.000" toX="584.200" toY="4.762"/>
+                <line id="" zValue="20" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="476.250" fromY="0.000" toX="476.250" toY="4.762"/>
+                <line id="" zValue="21" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="312.737" fromY="0.000" toX="312.737" toY="4.762"/>
+                <line id="" zValue="22" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="542.925" fromY="0.000" toX="542.925" toY="4.762"/>
+                <line id="" zValue="23" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="296.863" fromY="0.000" toX="296.863" toY="4.762"/>
+                <line id="" zValue="24" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="412.750" fromY="0.000" toX="412.750" toY="4.762"/>
+                <line id="" zValue="25" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="447.675" fromY="0.000" toX="447.675" toY="4.762"/>
+                <line id="" zValue="26" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="327.025" fromY="0.000" toX="327.025" toY="4.762"/>
+                <line id="" zValue="27" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="320.675" fromY="0.000" toX="320.675" toY="4.762"/>
+                <line id="" zValue="28" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="554.038" fromY="0.000" toX="554.038" toY="4.762"/>
+                <line id="" zValue="29" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="420.688" fromY="0.000" toX="420.688" toY="4.762"/>
+                <line id="" zValue="30" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="349.250" fromY="0.000" toX="349.250" toY="4.762"/>
+                <line id="" zValue="31" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="304.800" fromY="0.000" toX="304.800" toY="4.762"/>
+                <line id="2623" zValue="32" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="296.863" fromY="4.762" toX="584.200" toY="4.762"/>
+                <line id="" zValue="33" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="198.438" fromY="0.000" toX="198.438" toY="4.762"/>
+                <line id="" zValue="34" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="382.587" fromY="0.000" toX="382.587" toY="4.762"/>
+                <line id="" zValue="35" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="392.112" fromY="0.000" toX="392.112" toY="4.762"/>
+                <line id="" zValue="36" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="401.637" fromY="0.000" toX="401.637" toY="4.762"/>
+                <line id="" zValue="37" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="355.600" fromY="0.000" toX="355.600" toY="4.762"/>
+                <line id="" zValue="38" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="458.787" fromY="0.000" toX="458.787" toY="4.762"/>
+                <line id="" zValue="39" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="466.725" fromY="0.000" toX="466.725" toY="4.762"/>
+                <line id="" zValue="40" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="485.775" fromY="0.000" toX="485.775" toY="4.762"/>
+                <line id="" zValue="41" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="522.288" fromY="0.000" toX="522.288" toY="4.762"/>
+                <line id="" zValue="42" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="190.500" fromY="0.000" toX="190.500" toY="4.762"/>
+                <line id="" zValue="43" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="180.975" fromY="0.000" toX="180.975" toY="4.762"/>
+                <line id="" zValue="44" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="212.725" fromY="0.000" toX="212.725" toY="4.762"/>
+                <line id="" zValue="45" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="220.662" fromY="0.000" toX="220.662" toY="4.762"/>
+                <line id="" zValue="46" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="234.950" fromY="0.000" toX="234.950" toY="4.762"/>
+                <line id="" zValue="47" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="228.600" fromY="0.000" toX="228.600" toY="4.762"/>
+                <line id="" zValue="48" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="241.300" fromY="0.000" toX="241.300" toY="4.762"/>
+                <line id="" zValue="49" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="249.237" fromY="0.000" toX="249.237" toY="4.762"/>
+                <line id="" zValue="50" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="263.525" fromY="0.000" toX="263.525" toY="4.762"/>
+                <line id="" zValue="51" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="257.175" fromY="0.000" toX="257.175" toY="4.762"/>
+                <line id="" zValue="52" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="287.337" fromY="0.000" toX="287.337" toY="4.762"/>
+                <line id="" zValue="53" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="271.462" fromY="0.000" toX="271.462" toY="4.762"/>
+                <line id="" zValue="54" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="279.400" fromY="0.000" toX="279.400" toY="4.762"/>
+                <line id="" zValue="55" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="341.312" fromY="0.000" toX="341.312" toY="4.762"/>
+                <line id="" zValue="56" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="334.962" fromY="0.000" toX="334.962" toY="4.762"/>
+                <line id="" zValue="57" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="373.062" fromY="0.000" toX="373.062" toY="4.762"/>
+                <line id="" zValue="58" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="363.537" fromY="0.000" toX="363.537" toY="4.762"/>
+                <line id="" zValue="59" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="428.625" fromY="0.000" toX="428.625" toY="4.762"/>
+                <line id="" zValue="60" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="436.562" fromY="0.000" toX="436.562" toY="4.762"/>
+                <line id="" zValue="61" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="514.350" fromY="0.000" toX="514.350" toY="4.762"/>
+                <line id="" zValue="62" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="506.412" fromY="0.000" toX="506.412" toY="4.762"/>
+                <line id="" zValue="63" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="495.300" fromY="0.000" toX="495.300" toY="4.762"/>
+                <line id="" zValue="64" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="531.812" fromY="0.000" toX="531.812" toY="4.762"/>
+                <line id="" zValue="65" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="568.325" fromY="0.000" toX="568.325" toY="4.762"/>
+            </items>
+        </detail>
+    </details>
+</NCReport>

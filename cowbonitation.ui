@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cowBonitation</class>
+ <widget class="QDialog" name="cowBonitation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>639</width>
+    <height>377</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cow bonitation</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="DateLabel">
+       <property name="text">
+        <string>Date</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="NCalvingLabel">
+       <property name="text">
+        <string>Number of calving</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="AgeLabel">
+       <property name="text">
+        <string>Age</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="ClassLabel">
+       <property name="text">
+        <string>Class</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QLabel" name="PurposeLabel">
+       <property name="text">
+        <string>Purpose</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QDateEdit" name="DateTxt"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="AgeTxt"/>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLineEdit" name="ClassTxt"/>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLineEdit" name="PurposeTxt"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="NCalvingTxt"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="bullExterior">
+      <attribute name="title">
+       <string>Exterior</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>Overview</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="BEvidenceLabel">
+            <property name="text">
+             <string>Breed evidence</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="BEvidenceTxt"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="MusclesLabel">
+            <property name="text">
+             <string>Muscles</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="MusclesTxt"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Figure</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="HeadNeckLabel">
+            <property name="text">
+             <string>Head &amp; neck</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QSpinBox" name="HeadNeckTxt"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="HamLabel">
+            <property name="text">
+             <string>Ham</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QSpinBox" name="HamTxt"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="BreastLabel">
+            <property name="text">
+             <string>Breast</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QSpinBox" name="BreastTxt"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="UdderLabel">
+            <property name="text">
+             <string>Udder</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QSpinBox" name="UdderTxt"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="WithersBackLabel">
+            <property name="text">
+             <string>Withers, back, loin</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QSpinBox" name="WithersBackTxt"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="LimbsLabel">
+            <property name="text">
+             <string>Limbs</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QSpinBox" name="LimbsTxt"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="SacrumLabel">
+            <property name="text">
+             <string>Sacrum</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QSpinBox" name="SacrumTxt"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="TotalLabel">
+           <property name="text">
+            <string>Total score</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="TotalTxt"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="bullValuation">
+      <attribute name="title">
+       <string>Valuation</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QLabel" name="MilkinessLabel">
+            <property name="text">
+             <string>Milkiness</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QSpinBox" name="MilkinessTxt"/>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLabel" name="WeightLabel">
+            <property name="text">
+             <string>Live weight</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="QSpinBox" name="WeightTxt"/>
+          </item>
+          <item row="1" column="4">
+           <widget class="QLabel" name="TEvidenceLabel">
+            <property name="text">
+             <string>Type evidence, exterior</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="5">
+           <widget class="QSpinBox" name="TEvidenceTxt"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="ReprodAbilityLabel">
+            <property name="text">
+             <string>Reproductive ability</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QSpinBox" name="ReprodAbilityTxt"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string>Genotype</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="2">
+           <widget class="QLabel" name="FClassLabel">
+            <property name="text">
+             <string>Father class</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QSpinBox" name="FClassTxt"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="MClassLabel">
+            <property name="text">
+             <string>Mother class</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QSpinBox" name="MClassTxt"/>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="BreedLabel">
+            <property name="text">
+             <string>Breed</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QSpinBox" name="BreedTxt"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="FatherProdLabel">
+            <property name="text">
+             <string>Father own productivity</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QSpinBox" name="FatherProdTxt"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="SumPointsLabel">
+           <property name="text">
+            <string>Sum of points</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="SumPointsTxt"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="submitButton">
+       <property name="text">
+        <string>Submit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeButton">
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
